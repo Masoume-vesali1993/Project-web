@@ -26,6 +26,7 @@ import iconersal from './Components/Bimito/Img/icon-ersal.svg'
 import MenuForm from './Components/Bimito/MenuForm';
 import index from './Components/Bimito/index';
 import Dargah from './Components/Bimito/Dargah';
+import Application from './Components/Bimito/Application';
 
 
 
@@ -190,6 +191,8 @@ function App() {
               <Col span={2}>col-6</Col>
             </Row>
           </div> */}
+        {/* ---------------------------------------------------------------- */}
+          <Application />
     </div>
   );
 }
