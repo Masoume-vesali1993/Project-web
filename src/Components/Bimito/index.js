@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+
 import 'antd/dist/antd.css';
 import { Card, Col, Row } from 'antd';
 
@@ -7,6 +8,8 @@ import safr from './Img/safr.jpg'
 import khane from './Img/khane.jpg'
 import omr from './Img/omr.jpg'
 import sales from './Img/sales.jpg'
+
+
 
 const { Meta } = Card;
 
@@ -64,5 +67,7 @@ ReactDOM.render(
       
     </Row>
   </div>,
-  document.getElementById('container'),
-);
+  document.getElementById('container')
+
+  )
+

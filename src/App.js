@@ -24,7 +24,7 @@ import iconspeed from './Components/Bimito/Img/icon-speed.svg'
 import iconsupport from './Components/Bimito/Img/icon-support.svg'
 import iconersal from './Components/Bimito/Img/icon-ersal.svg'
 import MenuForm from './Components/Bimito/MenuForm';
-import index from './Components/Bimito/index';
+import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
 import google from './Components/Bimito/Img/google.png'
@@ -39,6 +39,13 @@ import samandehi from './Components/Bimito/Img/samandehi.png'
 import enamad from './Components/Bimito/Img/enamad.png'
 import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Components/Pages/Home";
+import Navbar from "./Components/layout/Navbar";
+import BimeVasayel from "./Components/Pages/BimeVasayel";
+import './App.css';
+import BimeAshkhas from "./Components/Pages/BimeAshkhas";
+
 
 
 
@@ -49,6 +56,16 @@ import EndFooer from './Components/Bimito/EndFooer';
 function App() {
   return (
     <div className="App">
+      <Router>
+        <div>
+      <Navbar className="navbar" />
+         <Switch>
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/BimeVasayel" component={BimeVasayel} />
+            <Route exact path="/BimeAshkhas" component={BimeAshkhas} />
+          </Switch>
+        </div>
+      </Router>
         {/* ---------------------------------------------------------------- TopHeader*/}   
         <div className="topheader">
             <Row>          
@@ -181,7 +198,7 @@ function App() {
           </div>
         </div>
         {/* ---------------------------------------------------------------- */}
-        <index />
+        <Index />
 
 
         {/* ---------------------------------------------------------------- */}
