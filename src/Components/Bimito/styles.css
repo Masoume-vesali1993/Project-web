@@ -201,3 +201,34 @@
     z-index: 1;
     background: #f3f3f3;
 }
+.biminto{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    min-height: 300px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 30px 20px 0;
+    background: #00b4ff;
+}
+.footer{
+    padding: 25px 20px;
+    background-color: #595958;
+    align-items: center;
+    color: #fff;
+}
+.endpart{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background: #7bcf21;
+    color: #fff;
+}
+.endpartpage{
+    padding: 30px 20px;
+    background-color: #30302f;
+    text-align: center;
+}

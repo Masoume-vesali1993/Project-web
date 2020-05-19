@@ -13,7 +13,7 @@ export default class extends React.Component {
 
     render(){
         return (
-            <div className="application">
+            <div className="biminto">
                 <h3>{this.state.props.text}</h3>
             </div>
         );

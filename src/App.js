@@ -27,6 +27,18 @@ import MenuForm from './Components/Bimito/MenuForm';
 import index from './Components/Bimito/index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
+import google from './Components/Bimito/Img/google.png'
+import bazar from './Components/Bimito/Img/bazar.png'
+import mayket from './Components/Bimito/Img/mayket.png'
+import iranapps2 from './Components/Bimito/Img/iranapps2.png'
+import charkhone from './Components/Bimito/Img/charkhone.png'
+import ios from './Components/Bimito/Img/ios.png'
+import Bimito from './Components/Bimito/Biminto';
+import Footer from './Components/Bimito/Footer';
+import samandehi from './Components/Bimito/Img/samandehi.png'
+import enamad from './Components/Bimito/Img/enamad.png'
+import anjoman from './Components/Bimito/Img/anjoman.png'
+import EndFooer from './Components/Bimito/EndFooer';
 
 
 
@@ -173,8 +185,8 @@ function App() {
 
 
         {/* ---------------------------------------------------------------- */}
-          {/* <Dargah /> */}
-          {/* <div>
+          <Dargah />
+          <div>
             <Row>
               <Col span={2}>col-6</Col>
               <Col span={2}>col-6</Col>
@@ -190,9 +202,97 @@ function App() {
               <Col span={2}>col-6</Col>
               <Col span={2}>col-6</Col>
             </Row>
-          </div> */}
+          </div>
         {/* ---------------------------------------------------------------- */}
           <Application />
+          <div>
+            <h3>دانلود اپلیکیشن بیمنتو</h3>
+            <Row>
+              <Col span={4}>
+                <img src={ios} alt="دانلود اپلیکیشن از ios" width="100%"/>
+              </Col>
+              <Col span={4}>
+                <img src={charkhone} alt="دانلود اپلیکیشن از چهارخونه" width="100%"/>
+              </Col>
+              <Col span={4}>
+                <img src={iranapps2} alt="دانلود اپلیکیشن از ایران اپس" width="100%"/>
+              </Col>
+              <Col span={4}>
+                <img src={mayket} alt="دانلود اپلیکیشن از مارکت" width="100%"/>
+              </Col>
+              <Col span={4}>
+                <img src={bazar} alt="دانلود اپلیکیشن از بازار" width="100%"/>
+              </Col>
+              <Col span={4}>
+                <img src={google} alt="دانلود اپلیکشن از گوگل" width="100%"/>
+              </Col>
+            </Row>
+          </div>
+        {/* ---------------------------------------------------------------- */}
+        <Bimito />
+        <div className="biminto">
+          <h2>بیمنتو چیست؟</h2>
+          <p>از طریق اپلیکیشن و وب‌سایت بیمیتو هر لحظه و هر جایی که هستی می‌تونی به صورت آنلاین بیمه بخری. فقط کافیه به چند تا سوال ساده، جواب بدی تا بتونی کیفیت و قیمت ده‌ها شرکت بیمه مورد تایید بیمه مرکزی رو مقایسه کنی. آخر سر بیمه‌ای که به نظرت مناسب‌تر هست رو انتخاب کنی و بخری و در خونه تحویل بگیری.</p>
+        </div>
+        {/* ---------------------------------------------------------------- */}
+        <Footer />
+        <div className="footer">
+          <Row>
+            <Col span={6}>
+              <Row>
+
+                <Col span={8}>
+                  <img src={enamad} width="100%" />
+                </Col>
+                
+                <Col span={8}>
+                  <img src={samandehi} width="100%"/>
+                </Col>
+
+                <Col span={8}>
+                  <img src={anjoman} width="100%"/>
+                </Col>
+
+              </Row>
+              <p>masoumevsl198@gmail.com:ایمیل</p>
+              </Col>
+              <Col span={6}>
+                <p>تهران خیابان وزرا،خیابان هفتم</p>
+                <p>تلفن02112356</p>
+              </Col>
+              <Col span={6}>
+                <p>ورود به پنل</p>
+                <p>شاریط و قوانین</p>
+                <p>سوالات متداول</p>
+                <p>همکاری با ما</p>
+                <p>تماس با ما</p>
+                <p>درباره ما</p>
+                <p>فرصت های شغلی</p>
+              </Col>
+              <Col span={6}>
+                <p>بیمه شخص ثالث</p>
+                <p>بیمه بدنه</p>
+                <p>بیمه آتش سوزی</p>
+                <p>بیمه مسافرتی</p>
+                <p>بیمه عمر</p>
+                <p>بیمه موتور سیکلت</p>
+                <p>بیمه درمان تکمیلی</p>
+              </Col>
+          </Row>
+        </div>
+        {/* ---------------------------------------------------------------- */}
+        <EndFooer />
+        <div className="endpartpage">
+          <Row>
+          <Col span={12}>
+                <p>لوگو</p>
+            </Col>
+
+            <Col span={12}>
+              <h3><a className="endpart">سامانه بازاریابی بیمنتو</a></h3>
+            </Col>
+          </Row>
+        </div>
     </div>
   );
 }
