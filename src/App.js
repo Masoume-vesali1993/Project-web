@@ -58,8 +58,8 @@ function App() {
     <div className="App">
       <Router>
         <div>
-      <Navbar className="navbar" />
-         <Switch>
+        <Navbar className="navbar" />
+          <Switch>
             <Route exact path="/home" component={Home} />
             <Route exact path="/BimeVasayel" component={BimeVasayel} />
             <Route exact path="/BimeAshkhas" component={BimeAshkhas} />
