@@ -237,3 +237,10 @@
     padding: 20px;
     overflow: hidden;
 }
+.card-img img{
+    /* position: absolute;
+    top: -95px;
+    width: 170px;
+    height: 170px; */
+
+}
