@@ -6,7 +6,7 @@ import './index.css';
 import { Row, Col } from 'antd';
 import MainPart from './Components/Bimito/MainPart';
 import corona from "../src/Components/Bimito/Img/corona-large.png"
-import Menupart from './Components/Bimito/Menupart';
+import MenuPart from './Components/Bimito/MenuPart';
 import sales from './Components/Bimito/Img/thirdparty.svg'
 import carBody from './Components/Bimito/Img/carBody.svg'
 import motorcycle_1 from './Components/Bimito/Img/motorcycle_1.svg'
@@ -40,11 +40,7 @@ import enamad from './Components/Bimito/Img/enamad.png'
 import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Components/Pages/Home";
-import Navbar from "./Components/layout/Navbar";
-import BimeVasayel from "./Components/Pages/BimeVasayel";
 import './App.css';
-import BimeAshkhas from "./Components/Pages/BimeAshkhas";
 
 
 
@@ -56,36 +52,9 @@ import BimeAshkhas from "./Components/Pages/BimeAshkhas";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <div>
-        <Navbar className="navbar" />
-          <Switch>
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/BimeVasayel" component={BimeVasayel} />
-            <Route exact path="/BimeAshkhas" component={BimeAshkhas} />
-          </Switch>
-        </div>
-      </Router>
         {/* ---------------------------------------------------------------- TopHeader*/}   
         <div className="topheader">
-            <Row>          
-                <Col span={6}>
-                    <img src={corona} alt=""  className="top-img1"/>
-                </Col>
-
-                <Col span={6} className="tow-img">
-                    <img src={corona} alt="" className="top-img2"/>
-                </Col>
-
-                <Col span={6} className="there-img">
-                    <img src={corona} alt="" className="top-img3"/>
-                </Col>
-
-                <Col span={6}>
-                  <img src={corona} alt="" className="top-img4"/>
-                </Col>
-            </Row>
-
+          
             <div className="text-header">
               <h3> طبق اعلام بیمه مرکزی، با توجه به شیوع کرونا، دریافت نسخه فیزیکی بیمه‌نامه تا 15 اردیبهشت ضروری نیست</h3>
             </div>
@@ -93,7 +62,7 @@ function App() {
           </div> 
         {/* ---------------------------------------------------------------- */}
         <div className="menu">
-          <Menupart/>
+          <MenuPart/>
         </div>
         {/* ---------------------------------------------------------------- */}
         <div className="main">
