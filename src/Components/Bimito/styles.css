@@ -231,3 +231,9 @@
     background-color: #30302f;
     text-align: center;
 }
+.gutter-row img{
+    margin: 0 auto;
+    width: 110px;
+    padding: 20px;
+    overflow: hidden;
+}

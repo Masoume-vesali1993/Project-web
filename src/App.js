@@ -54,7 +54,7 @@ function App() {
     <div className="App">
         {/* ---------------------------------------------------------------- TopHeader*/}   
         <div className="topheader">
-          
+
             <div className="text-header">
               <h3> طبق اعلام بیمه مرکزی، با توجه به شیوع کرونا، دریافت نسخه فیزیکی بیمه‌نامه تا 15 اردیبهشت ضروری نیست</h3>
             </div>
@@ -149,19 +149,27 @@ function App() {
             <Row gutter={16}>
               <Col className="gutter-row" span={6}>
                 <img src={iconersal} width="70px"/>
-                <div>ارسال رایگان</div>
+                <div>
+                  <p>ارسال رایگان</p>
+                </div>
               </Col>
               <Col className="gutter-row" span={6}>
                 <img src={iconsupport} width="70px"/>
-                <div>پشتیبانی در همه مراحل</div>
+                <div>
+                  <p>پشتیبانی در همه مراحل</p>
+                </div>
               </Col>
               <Col className="gutter-row" span={6}>
                 <img src={iconspeed} width="70px"/>
-                <div>سرعت در صدور</div>
+                <div>
+                  <p>سرعت در صدور</p>
+                </div>
               </Col>
               <Col className="gutter-row" span={6}>
                 <img src={iconsimple} width="70px"/>
-                <div>سادگی در خرید</div>
+                <div>
+                  <p>سادگی در خرید</p>
+                </div>
               </Col>
             </Row>
           </div>
