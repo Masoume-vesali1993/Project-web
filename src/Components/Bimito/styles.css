@@ -1,16 +1,15 @@
 .topheader{
-    padding: 20px;
-    background: #379f34;
-    color: #fff;
+    padding: 10px 20px;
+    background: #328806;
+    color: #ffffff;
     text-align: center;
-    font-size: 21px;
+    font-size: 17px;
     position: relative;
     display: flex;
     align-items: center;
     word-spacing: -2px;
     overflow: hidden;
     justify-content: center;
-    padding: 0;
 }
 .ant-menu-submenu-title{
     padding-top: 10px;
