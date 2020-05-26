@@ -39,8 +39,9 @@ import samandehi from './Components/Bimito/Img/samandehi.png'
 import enamad from './Components/Bimito/Img/enamad.png'
 import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
+import Scrool from './Components/Bimito/Scrool';
 
 
 
@@ -52,6 +53,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Scrool />
         {/* ---------------------------------------------------------------- TopHeader*/}   
         <div className="topheader">
 
