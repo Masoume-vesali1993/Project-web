@@ -41,7 +41,7 @@ import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
-// import Scrool from './Components/Bimito/Scrool';
+import Scrool from './Components/Bimito/Scrool';
 
 
 
@@ -53,7 +53,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <Scrool /> */}
+      <Scrool />
         {/* ---------------------------------------------------------------- TopHeader*/}   
         <div className="topheader">
 
