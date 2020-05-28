@@ -41,7 +41,7 @@ import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
-import Scrool from './Components/Bimito/Scrool';
+// import Scrool from './Components/Bimito/Scrool';
 
 
 
@@ -53,7 +53,7 @@ import Scrool from './Components/Bimito/Scrool';
 function App() {
   return (
     <div className="App">
-      <Scrool />
+      {/* <Scrool /> */}
         {/* ---------------------------------------------------------------- TopHeader*/}   
         <div className="topheader">
 
@@ -128,6 +128,19 @@ function App() {
               <span>مسافرتی</span>
             </Col>
           </Row>
+
+
+          <div className="first-section">
+              <div className="airplane">
+
+                <svg height="210" width="500">
+                  <polygon points="1388.31 20.69 1421.4 67.45 1471.98 55.42 1407.06 15.99 1388.31 20.69 1388.31 20.69" fill="#fff" fill-role="evenodd" />
+                </svg>
+  
+              </div>
+          </div>
+
+
         </div>
 
         {/* ---------------------------------------------------------------- */}

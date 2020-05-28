@@ -191,6 +191,7 @@
 .backup{
     width: -webkit-fit-content;
     margin: 0 auto;
+    padding-top: 40px;
 }
 .allpart-form{
     justify-content: center;
