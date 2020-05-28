@@ -214,7 +214,7 @@ function App() {
           </div>
         {/* ---------------------------------------------------------------- */}
           <Application />
-          <div>
+          <div className="crad-application">
             <h3>دانلود اپلیکیشن بیمنتو</h3>
             <Row>
               <Col span={4}>
