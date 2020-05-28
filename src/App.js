@@ -218,22 +218,22 @@ function App() {
             <h3>دانلود اپلیکیشن بیمنتو</h3>
             <Row>
               <Col span={4}>
-                <img src={ios} alt="دانلود اپلیکیشن از ios" width="80%"/>
+                <img src={ios} alt="دانلود اپلیکیشن از ios" width="120px"/>
               </Col>
               <Col span={4}>
-                <img src={charkhone} alt="دانلود اپلیکیشن از چهارخونه" width="80%"/>
+                <img src={charkhone} alt="دانلود اپلیکیشن از چهارخونه" width="120px"/>
               </Col>
               <Col span={4}>
-                <img src={iranapps2} alt="دانلود اپلیکیشن از ایران اپس" width="80%"/>
+                <img src={iranapps2} alt="دانلود اپلیکیشن از ایران اپس" width="120px"/>
               </Col>
               <Col span={4}>
-                <img src={mayket} alt="دانلود اپلیکیشن از مارکت" width="80%"/>
+                <img src={mayket} alt="دانلود اپلیکیشن از مارکت" width="120px"/>
               </Col>
               <Col span={4}>
-                <img src={bazar} alt="دانلود اپلیکیشن از بازار" width="80%"/>
+                <img src={bazar} alt="دانلود اپلیکیشن از بازار" width="120px"/>
               </Col>
               <Col span={4}>
-                <img src={google} alt="دانلود اپلیکشن از گوگل" width="80%"/>
+                <img src={google} alt="دانلود اپلیکشن از گوگل" width="120px"/>
               </Col>
             </Row>
           </div>
