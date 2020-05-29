@@ -210,6 +210,8 @@
     background-color: #595958;
     align-items: center;
     color: #fff;
+    margin-top: -10px;
+    margin-bottom: -8px;
 }
 .endpart{
     padding: 10px 20px;
@@ -222,6 +224,7 @@
     padding: 30px 20px 45px 0;
     background-color: #30302f;
     text-align: center;
+    margin-bottom: -55px;
 }
 .gutter-row img{
     position: relative;
@@ -245,9 +248,12 @@
     padding-top: 20px;
 }
 .crad-application{
-    padding-top: 250px;
     padding-bottom: 100px;
 }
 .title-text{
     padding-bottom: 30px;
 }
+.img-bank{
+    padding-top: 250px;
+}
+

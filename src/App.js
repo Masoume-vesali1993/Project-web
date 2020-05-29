@@ -195,7 +195,7 @@ function App() {
 
         {/* ---------------------------------------------------------------- */}
           <Dargah />
-          <div>
+          <div className="img-bank">
             <Row>
               <Col span={2}>col-6</Col>
               <Col span={2}>col-6</Col>
