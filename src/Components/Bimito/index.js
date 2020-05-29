@@ -15,7 +15,7 @@ export default class Index extends Component {
   render() {
     return (
       <div className="site-card-wrapper card-img">
-        <Row gutter={24}>
+        <Row gutter={24} style={{margin:0}}>
           <Col span={6}>
             <Card
               hoverable
