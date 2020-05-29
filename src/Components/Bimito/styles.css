@@ -194,12 +194,16 @@
     left: 0;
     right: 0;
     z-index: 3;
-    min-height: 300px;
+    min-height: 41px;
     width: 100%;
     color: #fff;
     font-size: 1.2em;
-    padding: 30px 20px 0;
+    padding: 6px 20px 65px 0;
     background: #00b4ff;
+}
+.biminto h2{
+    color: #fff;
+    padding:28px;
 }
 .footer{
     padding: 25px 20px;
@@ -215,7 +219,7 @@
     color: #fff;
 }
 .endpartpage{
-    padding: 30px 20px;
+    padding: 30px 20px 45px 0;
     background-color: #30302f;
     text-align: center;
 }
@@ -243,4 +247,7 @@
 .crad-application{
     padding-top: 250px;
     padding-bottom: 100px;
+}
+.title-text{
+    padding-bottom: 30px;
 }

@@ -215,7 +215,7 @@ function App() {
         {/* ---------------------------------------------------------------- */}
           <Application />
           <div className="crad-application">
-            <h3>دانلود اپلیکیشن بیمنتو</h3>
+            <h3 className="title-text">دانلود اپلیکیشن بیمنتو</h3>
             <Row>
               <Col span={4}>
                 <img src={ios} alt="دانلود اپلیکیشن از ios" width="120px"/>
