@@ -71,7 +71,7 @@ class App extends Component {
           </div>
       </BrowserRouter>
 
-      // <div className="App">
+      <div className="App">
         {/* <Scrool /> */}
 
         {/* *********************************************************************** */}
