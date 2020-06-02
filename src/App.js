@@ -40,7 +40,7 @@ import enamad from './Components/Bimito/Img/enamad.png'
 import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
-// import Navbar from './Components/Bimito/Navbar';
+import Navbar from './Components/Bimito/Navbar';
 import BemeAmval from './Components/pages/BemeAmval';
 import BemeAshkhas from './Components/pages/BemeAshkhas';
 import BemeMasoliat from './Components/pages/BemeMasoliat';
@@ -50,7 +50,6 @@ import ComponyBime from './Components/pages/ComponyBime';
 import LoginUsing from './Components/pages/Login-Using';
 import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
-// import Scrool from './Components/Bimito/Scrool';
 
 
 
@@ -69,24 +68,21 @@ class App extends Component {
               <Route path="/blog/:id" render={(props) => <SinglePost post={this.findPostById(props.match.params.id)} /> } />
             </Switch>
           </div>
-      </BrowserRouter>
+       </BrowserRouter>
 
-      <div className="App">
-        {/* <Scrool /> */}
-
-        {/* *********************************************************************** */}
+       // *****************************************************************************
 
          <div className="topheader">
             <div className="text-header">
               <h3> طبق اعلام بیمه مرکزی، با توجه به شیوع کرونا، دریافت نسخه فیزیکی بیمه‌نامه تا 15 اردیبهشت ضروری نیست</h3>
              </div>
           </div> 
-        {/* *********************************************************************** */}
-        <div className="menu">
-           <MenuPart/>
-        </div>
-        {/* *********************************************************************** */}
-
+          
+      // *****************************************************************************
+          <div className="menu">
+            <MenuPart/>
+          </div>
+      // *****************************************************************************
         <div className="main">
            <MainPart />
            <h2 id="text-main">سامانه مقایسه و خرید آنلاین بیمه</h2>
@@ -162,8 +158,7 @@ class App extends Component {
 
 
          </div>
-        {/* *********************************************************************** */}
-
+      // *****************************************************************************
         <Form/>
          <div className="allpart-form">
            <div className="form">
@@ -209,11 +204,12 @@ class App extends Component {
              </Row>
            </div>
          </div>
-        {/* *********************************************************************** */}
+
+      // *****************************************************************************
 
            <Index />
+      // *****************************************************************************
 
-        {/* *********************************************************************** */}
           <Dargah />
             <div className="img-bank">
               <Row>
@@ -232,8 +228,8 @@ class App extends Component {
                 <Col span={2}>col-6</Col>
               </Row>
             </div>
+        // *****************************************************************************
 
-        {/* *********************************************************************** */}
             <Application />
               <div className="crad-application">
                 <h3 className="title-text">دانلود اپلیکیشن بیمنتو</h3>
@@ -258,14 +254,15 @@ class App extends Component {
                   </Col>
                 </Row>
               </div>
+        // *****************************************************************************
 
-        {/* *********************************************************************** */}
               <Bimito />
                 <div className="biminto">
                   <h2>بیمنتو چیست؟</h2>
                   <p>از طریق اپلیکیشن و وب‌سایت بیمیتو هر لحظه و هر جایی که هستی می‌تونی به صورت آنلاین بیمه بخری. فقط کافیه به چند تا سوال ساده، جواب بدی تا بتونی کیفیت و قیمت ده‌ها شرکت بیمه مورد تایید بیمه مرکزی رو مقایسه کنی. آخر سر بیمه‌ای که به نظرت مناسب‌تر هست رو انتخاب کنی و بخری و در خونه تحویل بگیری.</p>
                 </div>
-        {/* *********************************************************************** */}
+        // *****************************************************************************
+
               <Footer />
                   <div className="footer">
                     <Row>
@@ -311,25 +308,20 @@ class App extends Component {
                         </Col>
                     </Row>
                   </div>
+        // *****************************************************************************
+                <EndFooer />
+                  <div className="endpartpage">
+                    <Row>
+                    <Col span={12}>
+                          <p>لوگو</p>
+                      </Col>
 
-        {/* *********************************************************************** */}
-
-            <EndFooer />
-              <div className="endpartpage">
-                <Row>
-                <Col span={12}>
-                      <p>لوگو</p>
-                  </Col>
-
-                  <Col span={12}>
-                    <h3><a className="endpart">سامانه بازاریابی بیمنتو</a></h3>
-                  </Col>
-                </Row>
-              </div>
-        {/* *********************************************************************** */}
-
-         {/* </div> */}
-
+                      <Col span={12}>
+                        <h3><a className="endpart">سامانه بازاریابی بیمنتو</a></h3>
+                      </Col>
+                    </Row>
+                  </div>
+        // *****************************************************************************
       );
     }
   };
