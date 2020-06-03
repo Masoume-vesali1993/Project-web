@@ -7,16 +7,6 @@ import { Row, Col } from 'antd';
 import MainPart from './Components/Bimito/MainPart';
 import corona from "../src/Components/Bimito/Img/corona-large.png"
 import MenuPart from './Components/Bimito/MenuPart';
-import sales from './Components/Bimito/Img/thirdparty.svg'
-import carBody from './Components/Bimito/Img/carBody.svg'
-import motorcycle_1 from './Components/Bimito/Img/motorcycle_1.svg'
-import fire_2 from './Components/Bimito/Img/fire_2.svg'
-import earthquake from './Components/Bimito/Img/earthquake.svg'
-import travel from './Components/Bimito/Img/travel.svg'
-import medical from './Components/Bimito/Img/medical.svg'
-import life from './Components/Bimito/Img/life.svg'
-import health from './Components/Bimito/Img/health.svg'
-import corporate from './Components/Bimito/Img/corporate.svg'
 import Form from './Components/Bimito/Form'
 import punchHoles from './Components/Bimito/Img/punchHoles.svg'
 import iconsimple from './Components/Bimito/Img/icon-simple.svg'
@@ -74,88 +64,12 @@ class App extends Component {
 
        {/* ************************************************************************ ُ*/}
           <TopHeader />
-       {/* ************************************************************************ ُ*/}
 
-          <div className="menu">
-            <MenuPart/>
-          </div>
-      // *****************************************************************************
-        <div className="main">
-           <MainPart />
-           <h2 id="text-main">سامانه مقایسه و خرید آنلاین بیمه</h2>
-           <p>بیمه مورد نظر خودتون رو انتخاب کنید</p>
-           <p>در صورت خرید تا ساعت 21 در روزهای عادی و تا ساعت 19 در روزهای پنج‌شنبه و تعطیل، بیمه‌نامه شما همان روز صادر می‌شود</p>
+          <MenuPart/>
 
-           <Row className="online-Buy">
-            
-           <Col span={4} className="img-persone">
-               <img src={earthquake} alt="" height="45px"/>
-               <span>زلزله</span>
-             </Col>
+          <MainPart />
 
-            <Col span={4} className="img-persone">
-              <img src={fire_2} alt="" height="45px"/>
-               <span>آتش سوزی</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-               <img src={motorcycle_1} alt="" height="45px"/>
-               <span>موتور سیکلت</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-               <img src={carBody} alt="" height="45px"/>
-               <span>بدنه</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-                <img src={sales} alt="" height="45px"/>
-               <span>شخص ثالث</span>
-             </Col>
-
-           </Row>
-
-           <Row className="online-Buy">
-              <Col span={4} className="img-persone">
-               <img src={corporate} alt="" height="45px"/>
-               <span>سازمانی</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-               <img src={health} alt="" height="45px"/>
-                  <span>درمان</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-               <img src={life} alt="" height="45px"/>
-               <span>عمر</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-               <img src={medical} alt="" height="45px"/>
-               <span>مسئولیت پزشکان</span>
-             </Col>
-
-             <Col span={4} className="img-persone">
-               <img src={travel} alt="" height="45px"/>
-               <span>مسافرتی</span>
-             </Col>
-           </Row>
-
-
-           <div className="first-section">
-               <div className="airplane">
-
-                 <svg height="210" width="500">
-                   <polygon points="1388.31 20.69 1421.4 67.45 1471.98 55.42 1407.06 15.99 1388.31 20.69 1388.31 20.69" fill="#fff" fill-role="evenodd" />
-                 </svg>
-  
-               </div>
-           </div>
-
-
-         </div>
-      // *****************************************************************************
+          
         <Form/>
          <div className="allpart-form">
            <div className="form">
@@ -202,10 +116,8 @@ class App extends Component {
            </div>
          </div>
 
-      // *****************************************************************************
 
            <Index />
-      // *****************************************************************************
 
           <Dargah />
             <div className="img-bank">
@@ -225,7 +137,6 @@ class App extends Component {
                 <Col span={2}>col-6</Col>
               </Row>
             </div>
-        // *****************************************************************************
 
             <Application />
               <div className="crad-application">
@@ -251,7 +162,6 @@ class App extends Component {
                   </Col>
                 </Row>
               </div>
-        // *****************************************************************************
 
               <Bimito />
                 <div className="biminto">
@@ -259,7 +169,6 @@ class App extends Component {
                   <p>از طریق اپلیکیشن و وب‌سایت بیمیتو هر لحظه و هر جایی که هستی می‌تونی به صورت آنلاین بیمه بخری. فقط کافیه به چند تا سوال ساده، جواب بدی تا بتونی کیفیت و قیمت ده‌ها شرکت بیمه مورد تایید بیمه مرکزی رو مقایسه کنی. آخر سر بیمه‌ای که به نظرت مناسب‌تر هست رو انتخاب کنی و بخری و در خونه تحویل بگیری.</p>
                 </div>
                 
-        // *****************************************************************************
 
               <Footer />
                   <div className="footer">
@@ -306,7 +215,7 @@ class App extends Component {
                         </Col>
                     </Row>
                   </div>
-        // *****************************************************************************
+
                 <EndFooer />
                   <div className="endpartpage">
                     <Row>
@@ -320,7 +229,6 @@ class App extends Component {
                     </Row>
                   </div>
               </div>
-        // *****************************************************************************
       );
     }
   };
