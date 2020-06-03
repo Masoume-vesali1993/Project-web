@@ -2,10 +2,7 @@ import React,{Component} from 'react';
 import './App.css';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import './index.css';
-import { Row, Col } from 'antd';
 import MainPart from './Components/Bimito/MainPart';
-import corona from "../src/Components/Bimito/Img/corona-large.png"
 import MenuPart from './Components/Bimito/MenuPart';
 import Form from './Components/Bimito/Form'
 import Index from './Components/Bimito/Index';
@@ -61,20 +58,19 @@ class App extends Component {
 
           <Dargah />
          
+          <Application />
 
-            <Application />
-            <Bimito />
+          <Bimito />
                 
-
-              <Footer />
+          <Footer />
                   
-
-                <EndFooer />
+          <EndFooer />
                  
-              </div>
-      );
-    }
-  };
+    </div>
+
+    );
+  }
+};
 
   export default App;
 
