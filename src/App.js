@@ -11,11 +11,12 @@ import Form from './Components/Bimito/Form'
 import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
-import Bimito from './Components/Bimito/Biminto';
 import Footer from './Components/Bimito/Footer';
 import samandehi from './Components/Bimito/Img/samandehi.png'
 import enamad from './Components/Bimito/Img/enamad.png'
 import anjoman from './Components/Bimito/Img/anjoman.png'
+import Bimito from './Components/Bimito/Biminto';
+
 import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
@@ -65,7 +66,7 @@ class App extends Component {
          
 
             <Application />
-              
+            <Bimito />
                 
 
               <Footer />
