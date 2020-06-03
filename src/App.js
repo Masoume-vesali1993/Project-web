@@ -10,7 +10,6 @@ import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
 import Footer from './Components/Bimito/Footer';
 import Bimito from './Components/Bimito/Biminto';
-
 import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
