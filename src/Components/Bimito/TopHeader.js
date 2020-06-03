@@ -14,7 +14,11 @@ export default class extends React.Component {
     render(){
         return (
             <div className="topheader">
-                <h3>{this.state.props.text}</h3>
+                <div className="topheader">
+                  <div className="text-header">
+                    <h3> طبق اعلام بیمه مرکزی، با توجه به شیوع کرونا، دریافت نسخه فیزیکی بیمه‌نامه تا 15 اردیبهشت ضروری نیست</h3>
+                  </div>
+                </div>
             </div>
         );
     }

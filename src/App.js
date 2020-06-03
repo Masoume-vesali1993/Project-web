@@ -40,15 +40,16 @@ import enamad from './Components/Bimito/Img/enamad.png'
 import anjoman from './Components/Bimito/Img/anjoman.png'
 import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
-import Navbar from './Components/Bimito/Navbar';
-import BemeAmval from './Components/pages/BemeAmval';
-import BemeAshkhas from './Components/pages/BemeAshkhas';
-import BemeMasoliat from './Components/pages/BemeMasoliat';
-import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
-import Blog from './Components/pages/Blog';
-import ComponyBime from './Components/pages/ComponyBime';
-import LoginUsing from './Components/pages/Login-Using';
-import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
+import TopHeader from './Components/Bimito/TopHeader';
+// import Navbar from './Components/Bimito/Navbar';
+// import BemeAmval from './Components/pages/BemeAmval';
+// import BemeAshkhas from './Components/pages/BemeAshkhas';
+// import BemeMasoliat from './Components/pages/BemeMasoliat';
+// import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
+// import Blog from './Components/pages/Blog';
+// import ComponyBime from './Components/pages/ComponyBime';
+// import LoginUsing from './Components/pages/Login-Using';
+// import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
 
 
@@ -57,26 +58,22 @@ import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 class App extends Component {
   render() {
     return (
+      <div>
       <BrowserRouter>
           <div>
-            <Route path="/" component={Navbar} />
+            {/* <Route path="/" component={Navbar} /> */}
 
             <Switch>
-              <Route path="/new-post" render={(props) => <NewPost {...props} onPostCreated={this.addNewPost} />} />
-              <Route path="/blog" exact render={(props) => <Blog {...props} posts={this.state.posts} x={true} /> } />
-              <Route path="/blog/list" render={(props) => <h1>blog list</h1> } />
-              <Route path="/blog/:id" render={(props) => <SinglePost post={this.findPostById(props.match.params.id)} /> } />
+              {/* <Route path="/new-post" render={(props) => <NewPost {...props} onPostCreated={this.addNewPost} />} /> */}
+              {/* <Route path="/blog" exact render={(props) => <Blog {...props} posts={this.state.posts} x={true} /> } /> */}
+              {/* <Route path="/blog/list" render={(props) => <h1>blog list</h1> } /> */}
+              {/* <Route path="/blog/:id" render={(props) => <SinglePost post={this.findPostById(props.match.params.id)} /> } /> */}
             </Switch>
           </div>
        </BrowserRouter>
 
        {/* ******************************************* ُ*/}
-
-         <div className="topheader">
-            <div className="text-header">
-              <h3> طبق اعلام بیمه مرکزی، با توجه به شیوع کرونا، دریافت نسخه فیزیکی بیمه‌نامه تا 15 اردیبهشت ضروری نیست</h3>
-             </div>
-          </div> 
+          <TopHeader />
 
       // *****************************************************************************
           <div className="menu">
@@ -322,6 +319,7 @@ class App extends Component {
                       </Col>
                     </Row>
                   </div>
+              </div>
         // *****************************************************************************
       );
     }
