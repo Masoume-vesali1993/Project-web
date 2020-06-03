@@ -58,7 +58,7 @@ import TopHeader from './Components/Bimito/TopHeader';
 class App extends Component {
   render() {
     return (
-      <div>
+    <div>
       <BrowserRouter>
           <div>
             {/* <Route path="/" component={Navbar} /> */}
@@ -72,10 +72,10 @@ class App extends Component {
           </div>
        </BrowserRouter>
 
-       {/* ******************************************* ُ*/}
+       {/* ************************************************************************ ُ*/}
           <TopHeader />
+       {/* ************************************************************************ ُ*/}
 
-      // *****************************************************************************
           <div className="menu">
             <MenuPart/>
           </div>
