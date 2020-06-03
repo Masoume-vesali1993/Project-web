@@ -12,9 +12,6 @@ import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
 import Footer from './Components/Bimito/Footer';
-import samandehi from './Components/Bimito/Img/samandehi.png'
-import enamad from './Components/Bimito/Img/enamad.png'
-import anjoman from './Components/Bimito/Img/anjoman.png'
 import Bimito from './Components/Bimito/Biminto';
 
 import EndFooer from './Components/Bimito/EndFooer';
@@ -70,63 +67,10 @@ class App extends Component {
                 
 
               <Footer />
-                  <div className="footer">
-                    <Row>
-                      <Col span={6}>
-                        <Row>
-
-                          <Col span={8}>
-                            <img src={enamad} width="100%" />
-                          </Col>
-                          
-                          <Col span={8}>
-                            <img src={samandehi} width="100%"/>
-                          </Col>
-
-                          <Col span={8}>
-                            <img src={anjoman} width="100%"/>
-                          </Col>
-
-                        </Row>
-                        <p>masoumevsl198@gmail.com:ایمیل</p>
-                        </Col>
-                        <Col span={6}>
-                          <p>تهران خیابان وزرا،خیابان هفتم</p>
-                          <p>تلفن02112356</p>
-                        </Col>
-                        <Col span={6}>
-                          <p>ورود به پنل</p>
-                          <p>شاریط و قوانین</p>
-                          <p>سوالات متداول</p>
-                          <p>همکاری با ما</p>
-                          <p>تماس با ما</p>
-                          <p>درباره ما</p>
-                          <p>فرصت های شغلی</p>
-                        </Col>
-                        <Col span={6}>
-                          <p>بیمه شخص ثالث</p>
-                          <p>بیمه بدنه</p>
-                          <p>بیمه آتش سوزی</p>
-                          <p>بیمه مسافرتی</p>
-                          <p>بیمه عمر</p>
-                          <p>بیمه موتور سیکلت</p>
-                          <p>بیمه درمان تکمیلی</p>
-                        </Col>
-                    </Row>
-                  </div>
+                  
 
                 <EndFooer />
-                  <div className="endpartpage">
-                    <Row>
-                    <Col span={12}>
-                          <p>لوگو</p>
-                      </Col>
-
-                      <Col span={12}>
-                        <h3><a className="endpart">سامانه بازاریابی بیمنتو</a></h3>
-                      </Col>
-                    </Row>
-                  </div>
+                 
               </div>
       );
     }
