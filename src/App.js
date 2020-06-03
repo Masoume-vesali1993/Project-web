@@ -8,11 +8,6 @@ import MainPart from './Components/Bimito/MainPart';
 import corona from "../src/Components/Bimito/Img/corona-large.png"
 import MenuPart from './Components/Bimito/MenuPart';
 import Form from './Components/Bimito/Form'
-import punchHoles from './Components/Bimito/Img/punchHoles.svg'
-import iconsimple from './Components/Bimito/Img/icon-simple.svg'
-import iconspeed from './Components/Bimito/Img/icon-speed.svg'
-import iconsupport from './Components/Bimito/Img/icon-support.svg'
-import iconersal from './Components/Bimito/Img/icon-ersal.svg'
 import MenuForm from './Components/Bimito/MenuForm';
 import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
@@ -69,9 +64,9 @@ class App extends Component {
 
           <MainPart />
 
+          <Form/>
           
-        <Form/>
-         <div className="allpart-form">
+         {/* <div className="allpart-form">
            <div className="form">
              <div className="add-form">
                  <img src={punchHoles} alt="" className="img-form"/>
@@ -114,7 +109,7 @@ class App extends Component {
                </Col>
              </Row>
            </div>
-         </div>
+         </div> */}
 
 
            <Index />
