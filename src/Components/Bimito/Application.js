@@ -1,5 +1,19 @@
 import React from 'react';
 import './styles.css';
+import { Row, Col } from 'antd';
+import ios from './Img/ios.png'
+import charkhone from './Img/charkhone.png'
+import iranapps2 from './Img/iranapps2.png'
+import mayket from './Img/mayket.png'
+import bazar from './Img/bazar.png'
+import google from './Img/google.png'
+
+
+
+
+
+
+
 
 
 export default class extends React.Component {
@@ -14,7 +28,35 @@ export default class extends React.Component {
     render(){
         return (
             <div className="application">
-                <h3>{this.state.props.text}</h3>
+                <div className="crad-application">
+                <h3 className="title-text">دانلود اپلیکیشن بیمنتو</h3>
+                <Row>
+                  <Col span={4}>
+                    <img src={ios} alt="دانلود اپلیکیشن از ios" width="120px"/>
+                  </Col>
+                  <Col span={4}>
+                    <img src={charkhone} alt="دانلود اپلیکیشن از چهارخونه" width="120px"/>
+                  </Col>
+                  <Col span={4}>
+                    <img src={iranapps2} alt="دانلود اپلیکیشن از ایران اپس" width="120px"/>
+                  </Col>
+                  <Col span={4}>
+                    <img src={mayket} alt="دانلود اپلیکیشن از مارکت" width="120px"/>
+                  </Col>
+                  <Col span={4}>
+                    <img src={bazar} alt="دانلود اپلیکیشن از بازار" width="120px"/>
+                  </Col>
+                  <Col span={4}>
+                    <img src={google} alt="دانلود اپلیکشن از گوگل" width="120px"/>
+                  </Col>
+                </Row>
+              </div>
+
+              {/* <Bimito /> */}
+                <div className="biminto">
+                  <h2>بیمنتو چیست؟</h2>
+                  <p>از طریق اپلیکیشن و وب‌سایت بیمیتو هر لحظه و هر جایی که هستی می‌تونی به صورت آنلاین بیمه بخری. فقط کافیه به چند تا سوال ساده، جواب بدی تا بتونی کیفیت و قیمت ده‌ها شرکت بیمه مورد تایید بیمه مرکزی رو مقایسه کنی. آخر سر بیمه‌ای که به نظرت مناسب‌تر هست رو انتخاب کنی و بخری و در خونه تحویل بگیری.</p>
+                </div>
             </div>
         );
     }

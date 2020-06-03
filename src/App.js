@@ -11,12 +11,6 @@ import Form from './Components/Bimito/Form'
 import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
-import google from './Components/Bimito/Img/google.png'
-import bazar from './Components/Bimito/Img/bazar.png'
-import mayket from './Components/Bimito/Img/mayket.png'
-import iranapps2 from './Components/Bimito/Img/iranapps2.png'
-import charkhone from './Components/Bimito/Img/charkhone.png'
-import ios from './Components/Bimito/Img/ios.png'
 import Bimito from './Components/Bimito/Biminto';
 import Footer from './Components/Bimito/Footer';
 import samandehi from './Components/Bimito/Img/samandehi.png'
@@ -65,66 +59,13 @@ class App extends Component {
 
           <Form/>
           
-         
-{/*             
-           <div className="box-form">
-               <MenuForm />
-             </div> */}
-           
-
-
-
-           <Index />
+          <Index />
 
           <Dargah />
-            <div className="img-bank">
-              <Row>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-                <Col span={2}>col-6</Col>
-              </Row>
-            </div>
+         
 
             <Application />
-              <div className="crad-application">
-                <h3 className="title-text">دانلود اپلیکیشن بیمنتو</h3>
-                <Row>
-                  <Col span={4}>
-                    <img src={ios} alt="دانلود اپلیکیشن از ios" width="120px"/>
-                  </Col>
-                  <Col span={4}>
-                    <img src={charkhone} alt="دانلود اپلیکیشن از چهارخونه" width="120px"/>
-                  </Col>
-                  <Col span={4}>
-                    <img src={iranapps2} alt="دانلود اپلیکیشن از ایران اپس" width="120px"/>
-                  </Col>
-                  <Col span={4}>
-                    <img src={mayket} alt="دانلود اپلیکیشن از مارکت" width="120px"/>
-                  </Col>
-                  <Col span={4}>
-                    <img src={bazar} alt="دانلود اپلیکیشن از بازار" width="120px"/>
-                  </Col>
-                  <Col span={4}>
-                    <img src={google} alt="دانلود اپلیکشن از گوگل" width="120px"/>
-                  </Col>
-                </Row>
-              </div>
-
-              <Bimito />
-                <div className="biminto">
-                  <h2>بیمنتو چیست؟</h2>
-                  <p>از طریق اپلیکیشن و وب‌سایت بیمیتو هر لحظه و هر جایی که هستی می‌تونی به صورت آنلاین بیمه بخری. فقط کافیه به چند تا سوال ساده، جواب بدی تا بتونی کیفیت و قیمت ده‌ها شرکت بیمه مورد تایید بیمه مرکزی رو مقایسه کنی. آخر سر بیمه‌ای که به نظرت مناسب‌تر هست رو انتخاب کنی و بخری و در خونه تحویل بگیری.</p>
-                </div>
+              
                 
 
               <Footer />

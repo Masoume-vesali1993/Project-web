@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.css';
+import { Row, Col } from 'antd';
+
 
 
 export default class extends React.Component {
@@ -14,7 +16,23 @@ export default class extends React.Component {
     render(){
         return (
             <div className="dargah">
-                <h3>{this.state.props.text}</h3>
+                <div className="img-bank">
+                    <Row>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                        <Col span={2}>col-6</Col>
+                    </Row>
+                </div>
             </div>
         );
     }
