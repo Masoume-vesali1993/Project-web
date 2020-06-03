@@ -8,7 +8,6 @@ import MainPart from './Components/Bimito/MainPart';
 import corona from "../src/Components/Bimito/Img/corona-large.png"
 import MenuPart from './Components/Bimito/MenuPart';
 import Form from './Components/Bimito/Form'
-import MenuForm from './Components/Bimito/MenuForm';
 import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
@@ -66,50 +65,13 @@ class App extends Component {
 
           <Form/>
           
-         {/* <div className="allpart-form">
-           <div className="form">
-             <div className="add-form">
-                 <img src={punchHoles} alt="" className="img-form"/>
-                 <img src={punchHoles} alt="" className="img-form-tow"/>
-                 <h2>یادآور تمدید یا اقساط بیمه</h2>
-             </div>
-           <div>
-            
+         
+{/*             
            <div className="box-form">
                <MenuForm />
-             </div>
-           </div>
-         </div>
+             </div> */}
+           
 
-           <div className="backup">
-             <Row gutter={16}>
-               <Col className="gutter-row" span={6}>
-                 <img src={iconersal} width="70px"/>
-                 <div>
-                   <p>ارسال رایگان</p>
-                 </div>
-               </Col>
-               <Col className="gutter-row" span={6}>
-                 <img src={iconsupport} width="70px"/>
-                 <div>
-                   <p>پشتیبانی در همه مراحل</p>
-                 </div>
-               </Col>
-               <Col className="gutter-row" span={6}>
-                 <img src={iconspeed} width="70px"/>
-                 <div>
-                   <p>سرعت در صدور</p>
-                 </div>
-               </Col>
-               <Col className="gutter-row" span={6}>
-                 <img src={iconsimple} width="70px"/>
-                 <div>
-                   <p>سادگی در خرید</p>
-                 </div>
-               </Col>
-             </Row>
-           </div>
-         </div> */}
 
 
            <Index />

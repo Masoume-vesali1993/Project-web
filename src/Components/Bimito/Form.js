@@ -6,6 +6,8 @@ import iconersal from './Img/icon-ersal.svg'
 import iconsupport from './Img/icon-support.svg'
 import iconspeed from './Img/icon-speed.svg'
 import iconsimple from './Img/icon-simple.svg'
+import MenuForm from './MenuForm';
+
 
 
 
@@ -35,12 +37,13 @@ export default class extends React.Component {
                     </div>
 
                     
-                    <div className="box-form">
-                    {/* <MenuForm /> */}
-                    </div>
+                  <div className="box-form">
+                    <MenuForm />
+                  </div>
                 </div>
 
                 <div className="backup">
+                    
                   <Row gutter={16}>
 
                     <Col className="gutter-row" span={6}>
@@ -72,6 +75,7 @@ export default class extends React.Component {
                     </Col>
 
                   </Row>
+
                 </div>
               </div>
             </div>
