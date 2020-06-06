@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { Row, Col } from 'antd';
+import mobilee from './Img/mobilee.svg'
 
 
 
@@ -32,6 +33,9 @@ export default class extends React.Component {
                         <Col span={2}>col-6</Col>
                         <Col span={2}>col-6</Col>
                     </Row>
+
+                    {<img alt="example" src={mobilee} />} 
+
                 </div>
             </div>
         );
