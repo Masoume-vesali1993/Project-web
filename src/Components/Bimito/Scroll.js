@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 import { render } from "react-dom";
+import { Row, Col } from 'antd';
 import Plx from "react-plx";
-import sales from "./Img/sales.jpg";
+import Asmari from "./Img/Asmari.png";
+import anjoman from "./Img/anjoman.png"
 
 const exampleParallaxData = [
   {
@@ -98,7 +100,26 @@ const styles = {
 const App = () => (
   <div>
     <Plx parallaxData={exampleParallaxData} style={styles}>
-     {<img alt="example" src={sales} />} 
+        <Row className="style-img">
+            <Col span={2}>
+                {<img alt="example" src={Asmari} />} 
+            </Col>
+            <Col span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+            {/* <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col>
+            <Col span={2}>col-6</Col> */}
+        </Row>
+        
     </Plx>
   </div>
 );
