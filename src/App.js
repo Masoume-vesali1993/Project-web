@@ -13,6 +13,7 @@ import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
+import Scroll from './Components/Bimito/Scroll';
 // import Navbar from './Components/Bimito/Navbar';
 // import BemeAmval from './Components/pages/BemeAmval';
 // import BemeAshkhas from './Components/pages/BemeAshkhas';
@@ -64,6 +65,8 @@ class App extends Component {
           <Footer />
                   
           <EndFooer />
+
+          <Scroll />
                  
     </div>
 
