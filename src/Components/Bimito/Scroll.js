@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import { render } from "react-dom";
 import Plx from "react-plx";
+import sales from "./Img/sales.jpg";
 
 const exampleParallaxData = [
   {
@@ -33,11 +34,13 @@ const exampleParallaxData = [
         endValue: "rgba(50,50,200,0.8)",
         property: "backgroundColor"
       },
+
       {
         startValue: 0,
         endValue: 100,
         property: "translateY"
       },
+
       {
         startValue: 0.75,
         endValue: 1,
@@ -45,6 +48,7 @@ const exampleParallaxData = [
       }
     ]
   },
+
   {
     start: 700,
     duration: 1000,
@@ -54,18 +58,19 @@ const exampleParallaxData = [
         endValue: 0,
         property: "translateY"
       },
+
       {
         startValue: 1.5,
         endValue: 2,
         property: "scale"
       },
+
       {
         startValue: 90,
         endValue: 0,
         property: "rotate"
       },
-      // Blur is not performant
-      // Used just as an example for CSS filters
+
       {
         startValue: 0,
         endValue: 2,
@@ -91,9 +96,9 @@ const styles = {
 };
 
 const App = () => (
-  <div style={{ height: 3000 }}>
+  <div>
     <Plx parallaxData={exampleParallaxData} style={styles}>
-      Hello!
+     {<img alt="example" src={sales} />} 
     </Plx>
   </div>
 );

@@ -61,12 +61,13 @@ class App extends Component {
           <Application />
 
           <Bimito />
+          
+          <Scroll />
                 
           <Footer />
                   
           <EndFooer />
 
-          <Scroll />
                  
     </div>
 
