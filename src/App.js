@@ -3,7 +3,7 @@ import './App.css';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import MainPart from './Components/Bimito/MainPart';
-import MenuPart from './Components/Bimito/MenuPart';
+// import MenuPart from './Components/Bimito/MenuPart';
 import Form from './Components/Bimito/Form'
 import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
@@ -14,7 +14,7 @@ import EndFooer from './Components/Bimito/EndFooer';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
-// import Navbar from './Components/Bimito/Navbar';
+import Navbar from './Components/Bimito/Navbar';
 // import BemeAmval from './Components/pages/BemeAmval';
 // import BemeAshkhas from './Components/pages/BemeAshkhas';
 // import BemeMasoliat from './Components/pages/BemeMasoliat';
@@ -32,9 +32,15 @@ class App extends Component {
   render() {
     return (
     <div>
-      <BrowserRouter>
+
+     
+
+       {/* ************************************************************************ ُ*/}
+          <TopHeader />
+
+          <BrowserRouter>
           <div>
-            {/* <Route path="/" component={Navbar} /> */}
+            <Route path="/" component={Navbar} />
 
             <Switch>
               {/* <Route path="/new-post" render={(props) => <NewPost {...props} onPostCreated={this.addNewPost} />} /> */}
@@ -45,10 +51,7 @@ class App extends Component {
           </div>
        </BrowserRouter>
 
-       {/* ************************************************************************ ُ*/}
-          <TopHeader />
-
-          <MenuPart/>
+          {/* <MenuPart/> */}
 
           <MainPart />
 
