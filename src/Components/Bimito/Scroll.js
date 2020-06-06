@@ -100,12 +100,12 @@ const styles = {
 const App = () => (
   <div>
     <Plx parallaxData={exampleParallaxData} style={styles}>
-        <Row className="style-img">
+        <Row>
             <Col span={2}>
                 {<img alt="example" src={Asmari} />} 
             </Col>
             <Col span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={anjoman} style={{padding:100}}/>}
             </Col>
             {/* <Col span={2}>col-6</Col>
             <Col span={2}>col-6</Col>
