@@ -15,14 +15,14 @@ import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
 import Navbar from './Components/Bimito/Navbar';
-// import BemeAmval from './Components/pages/BemeAmval';
-// import BemeAshkhas from './Components/pages/BemeAshkhas';
-// import BemeMasoliat from './Components/pages/BemeMasoliat';
-// import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
-// import Blog from './Components/pages/Blog';
-// import ComponyBime from './Components/pages/ComponyBime';
-// import LoginUsing from './Components/pages/Login-Using';
-// import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
+import BemeAmval from './Components/pages/BemeAmval';
+import BemeAshkhas from './Components/pages/BemeAshkhas';
+import BemeMasoliat from './Components/pages/BemeMasoliat';
+import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
+import Blog from './Components/pages/Blog';
+import ComponyBime from './Components/pages/ComponyBime';
+import LoginUsing from './Components/pages/Login-Using';
+import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
 
 
@@ -43,10 +43,16 @@ class App extends Component {
             <Route path="/" component={Navbar} />
 
             <Switch>
-              {/* <Route path="/new-post" render={(props) => <NewPost {...props} onPostCreated={this.addNewPost} />} /> */}
-              {/* <Route path="/blog" exact render={(props) => <Blog {...props} posts={this.state.posts} x={true} /> } /> */}
-              {/* <Route path="/blog/list" render={(props) => <h1>blog list</h1> } /> */}
-              {/* <Route path="/blog/:id" render={(props) => <SinglePost post={this.findPostById(props.match.params.id)} /> } /> */}
+              <Route path="/BemeAshkhas" render={(props) => <BemeAshkhas {...props} onPostCreated={this.addNewPost} />} /> 
+              <Route path="/BemeAmval" exact render={(props) => <BemeAmval {...props} posts={this.state.posts} x={true} /> } />
+              <Route path="/Blog" render={(props) => <h1>blog list</h1> } />
+              <Route path="/BemeMasoliat" render={(props) => <BemeMasoliat post={this.findPostById(props.match.params.id)} /> } />
+              <Route path="/BemeVasaiNaglie" render={(props) => <BemeVasaiNaglie post={this.findPostById(props.match.params.id)} /> } />
+              <Route path="/BemeAshkhas" render={(props) => <BemeAshkhas {...props} onPostCreated={this.addNewPost} />} /> 
+              <Route path="/ComponyBime" render={(props) => <ComponyBime {...props} onPostCreated={this.addNewPost} />} /> 
+              <Route path="/LoginUsing" render={(props) => <LoginUsing {...props} onPostCreated={this.addNewPost} />} /> 
+              <Route path="/SamaneBazaryabiBimito" render={(props) => <SamaneBazaryabiBimito {...props} onPostCreated={this.addNewPost} />} /> 
+
             </Switch>
           </div>
        </BrowserRouter>
