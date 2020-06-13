@@ -92,8 +92,9 @@ const styles = {
   color: "#fff",
   left: "50%",
   marginLeft: -50,
-  top: 100,
-  position: "fixed",
+  top: 1900,
+  // position: "fixed",
+  position:"absolute",
   fontFamily: "Helvetica, Arial, sans-serif"
 };
 
