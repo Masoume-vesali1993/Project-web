@@ -93,7 +93,6 @@ const styles = {
   left: "50%",
   marginLeft: -50,
   top: 2100,
-  // position: "fixed",
   position:"absolute",
   fontFamily: "Helvetica, Arial, sans-serif"
 };
