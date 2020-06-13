@@ -6,10 +6,6 @@ import samandehi from './Img/samandehi.png'
 import anjoman from './Img/anjoman.png'
 
 
-
-
-
-
 export default class extends React.Component {
 
     constructor(props){

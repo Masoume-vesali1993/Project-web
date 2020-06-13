@@ -3,7 +3,6 @@ import './styles.css';
 import { Row, Col } from 'antd';
 
 
-
 export default class extends React.Component {
 
     constructor(props){

@@ -10,12 +10,6 @@ import MenuForm from './MenuForm';
 
 
 
-
-
-
-
-
-
 export default class extends React.Component {
 
     constructor(props){
