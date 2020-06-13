@@ -2,8 +2,18 @@ import React, {Component} from "react";
 import { render } from "react-dom";
 import { Row, Col } from 'antd';
 import Plx from "react-plx";
-import Asmari from "./Img/Asmari.png";
+import Iran from "./Img/Iran.png"
 import anjoman from "./Img/anjoman.png"
+import Asia from "./Img/Asia.png"
+import Parsian from "./Img/Parsian.png"
+import Dana from "./Img/Dana.png"
+import Razi from "./Img/Razi.png"
+import Ma from "./Img/Ma.png"
+import Moalem from "./Img/Moalem.png"
+import Pasargad from "./Img/Pasargad.png"
+import Alborz from "./Img/Alborz.png"
+import Dey from "./Img/Dey"
+import Melat from "./Img/Melat"
 
 const exampleParallaxData = [
   {
@@ -107,7 +117,7 @@ const App = () => (
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Asmari} />} 
+                {<img alt="example" src={Iran} />} 
             </Col>
 
             <Col className="gutter-row" span={2}>
@@ -115,35 +125,35 @@ const App = () => (
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman}/>}
+                {<img alt="example" src={Asia}/>}
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={Parsian} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={Dana} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={Razi} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={Ma} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={Moalem} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} />}
+                {<img alt="example" src={Pasargad} />}
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={anjoman} style={{padding:100}}/>}
+                {<img alt="example" src={Alborz} />}
             </Col>
 
             <Col className="gutter-row" span={2}>
@@ -151,6 +161,59 @@ const App = () => (
             </Col>
 
         </Row>
+
+        <Row gutter={[24]}>
+
+            <Col span={2}>
+                {/* {<img alt="example" src={Asmari} />}  */}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Dey} />} 
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Melat}/>}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Asia}/>}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Parsian} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Dana} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Razi} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Ma} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Moalem} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Pasargad} />}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={Alborz} />}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {/* {<img alt="example" src={anjoman} style={{padding:100}}/>} */}
+            </Col>
+
+        </Row>
+
         
     </Plx>
   </div>
