@@ -100,24 +100,56 @@ const styles = {
 const App = () => (
   <div>
     <Plx parallaxData={exampleParallaxData} style={styles}>
-        <Row>
+        <Row gutter={[24]}>
+
             <Col span={2}>
+                {/* {<img alt="example" src={Asmari} />}  */}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
                 {<img alt="example" src={Asmari} />} 
             </Col>
-            <Col span={2}>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman}/>}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman}/>}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+            
+            <Col className="gutter-row" span={2}>
+                {<img alt="example" src={anjoman} />}
+            </Col>
+
+            <Col className="gutter-row" span={2}>
                 {<img alt="example" src={anjoman} style={{padding:100}}/>}
             </Col>
-            {/* <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col>
-            <Col span={2}>col-6</Col> */}
+
+            <Col className="gutter-row" span={2}>
+                {/* {<img alt="example" src={anjoman} style={{padding:100}}/>} */}
+            </Col>
+
         </Row>
         
     </Plx>

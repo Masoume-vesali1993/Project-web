@@ -1,24 +1,25 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-import { Form, Input, Button, Select } from 'antd';
+import { Form , Button, Select } from 'antd';
 import { Row, Col } from 'antd';
 
 
 const { Option } = Select;
-const layout = {
-  labelCol: {
-    span: 8,
-  },
-  wrapperCol: {
-    span: 16,
-  },
-};
-const tailLayout = {
-  wrapperCol: {
-    offset: 8,
-    span: 16,
-  },
-};
+    const layout = {
+    labelCol: {
+        span: 8,
+    },
+    wrapperCol: {
+        span: 16,
+    },
+    };
+
+    const tailLayout = {
+    wrapperCol: {
+        offset: 8,
+        span: 16,
+    },
+    };
 
 const Demo = () => {
   const [form] = Form.useForm();

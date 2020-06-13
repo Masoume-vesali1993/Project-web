@@ -15,14 +15,6 @@ import travel from './Img/travel.svg'
 
 
 
-
-
-
-
-
-
-
-
 export default class extends React.Component {
 
     constructor(props){
