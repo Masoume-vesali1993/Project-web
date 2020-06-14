@@ -102,122 +102,122 @@ const exampleParallaxData = [
 ];
 
 const styles = {
-  width: 20,
-  height: 20,
-  lineHeight: "30px",
-  textAlign: "center",
-  borderRadius: 20,
-  backgroundColor: "#34ba9c",
+  width: "480px",
+  height: "100px",
+  lineHeight: "100px",
+  // textAlign: "center",
+  // borderRadius: 20,
+  // backgroundColor: "#34ba9c",
   color: "#fff",
   left: "50%",
-  marginLeft: -50,
+  // marginLeft: -50,
   top: 2100,
   position:"absolute",
-  fontFamily: "Helvetica, Arial, sans-serif"
+  // fontFamily: "Helvetica, Arial, sans-serif"
 };
 
 const App = () => (
   <div>
-    <Plx parallaxData={exampleParallaxData} style={styles}>
-        <Row gutter={[24]}>
+    <Plx parallaxData={exampleParallaxData} style={styles} className="scroll-img">
+        <Row gutter={[12]}>
 
-            <Col span={2}>
+            <Col span={1}>
                 {/* {<img alt="example" src={Asmari} />}  */}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Iran} />} 
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={anjoman}/>}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Asia}/>}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Parsian} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Dana} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Razi} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Ma} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Moalem} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Pasargad} />}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {<img alt="example" src={Alborz} />}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col  span={1}>
                 {/* {<img alt="example" src={anjoman} style={{padding:100}}/>} */}
             </Col>
 
         </Row>
 
-        <Row gutter={[24]}>
+        <Row gutter={[12]}>
 
-            <Col span={2}>
+            <Col span={1}>
                 {/* {<img alt="example" src={Asmari} />}  */}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Dey} />} 
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Melat}/>}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={KarAfarin}/>}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Novin} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Saman} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Tejarat} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Kosar} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Arman} />}
             </Col>
             
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Sina} />}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {<img alt="example" src={Tavon} />}
             </Col>
 
-            <Col className="gutter-row" span={2}>
+            <Col className="gutter-row" span={1}>
                 {/* {<img alt="example" src={anjoman} style={{padding:100}}/>} */}
             </Col>
 

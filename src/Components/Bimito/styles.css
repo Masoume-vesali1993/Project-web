@@ -256,5 +256,11 @@
 .img-bank{
     padding-top: 600px;
 }
+.scroll-img img{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
 
 
