@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import { render } from "react-dom";
 import { Row, Col } from 'antd';
+import 'antd/dist/antd.css';
 import Plx from "react-plx";
 import Iran from "./Img/Iran.png"
 import anjoman from "./Img/anjoman.png"
@@ -12,8 +13,16 @@ import Ma from "./Img/Ma.png"
 import Moalem from "./Img/Moalem.png"
 import Pasargad from "./Img/Pasargad.png"
 import Alborz from "./Img/Alborz.png"
-import Dey from "./Img/Dey"
-import Melat from "./Img/Melat"
+import Dey from "./Img/Dey.png"
+import Melat from "./Img/Melat.png"
+import KarAfarin from "./Img/KarAfarin.png"
+import Novin from "./Img/Novin.png"
+import Saman from "./Img/Saman.png"
+import Tejarat from "./Img/Tejarat.png"
+import Kosar from "./Img/Kosar.png"
+import Arman from "./Img/Arman.png"
+import Sina from "./Img/Sina.png"
+import Tavon from "./Img/Tavon.png"
 
 const exampleParallaxData = [
   {
@@ -93,9 +102,9 @@ const exampleParallaxData = [
 ];
 
 const styles = {
-  width: 100,
-  height: 100,
-  lineHeight: "100px",
+  width: 20,
+  height: 20,
+  lineHeight: "30px",
   textAlign: "center",
   borderRadius: 20,
   backgroundColor: "#34ba9c",
@@ -177,35 +186,35 @@ const App = () => (
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Asia}/>}
+                {<img alt="example" src={KarAfarin}/>}
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Parsian} />}
+                {<img alt="example" src={Novin} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Dana} />}
+                {<img alt="example" src={Saman} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Razi} />}
+                {<img alt="example" src={Tejarat} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Ma} />}
+                {<img alt="example" src={Kosar} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Moalem} />}
+                {<img alt="example" src={Arman} />}
             </Col>
             
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Pasargad} />}
+                {<img alt="example" src={Sina} />}
             </Col>
 
             <Col className="gutter-row" span={2}>
-                {<img alt="example" src={Alborz} />}
+                {<img alt="example" src={Tavon} />}
             </Col>
 
             <Col className="gutter-row" span={2}>
