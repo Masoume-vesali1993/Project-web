@@ -11,7 +11,7 @@ import Application from './Components/Bimito/Application';
 import Footer from './Components/Bimito/Footer';
 import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
-import { BrowserRouter,Route, Switch } from 'react-router-dom';
+import { Route , Link } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
 import Navbar from './Components/Bimito/Navbar';
