@@ -52,8 +52,8 @@ class App extends Component {
               <Route path="/ComponyBime" render={(props) => <ComponyBime {...props} onPostCreated={this.addNewPost} />} /> 
               <Route path="/LoginUsing" render={(props) => <LoginUsing {...props} onPostCreated={this.addNewPost} />} /> 
               <Route path="/SamaneBazaryabiBimito" render={(props) => <SamaneBazaryabiBimito {...props} onPostCreated={this.addNewPost} />} /> 
-
             </Switch>
+            
           </div>
        </BrowserRouter>
 
