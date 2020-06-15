@@ -53,7 +53,7 @@ const exampleParallaxData = [
       {
         startValue: "#3cb99c",
         endValue: "rgba(50,50,200,0.8)",
-        property: "backgroundColor"
+        // property: "backgroundColor"
       },
 
       {
