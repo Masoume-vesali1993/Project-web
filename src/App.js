@@ -25,6 +25,12 @@ import LoginUsing from './Components/pages/Login-Using';
 import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
 
+import Home from "./Components/Hom";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
+
+
 
 
 
@@ -33,7 +39,10 @@ class App extends Component {
     return (
     <div>
 
-     
+     <Home />
+     <About />
+     <Contact />
+     <Projects />
 
        {/* ************************************************************************ ُ*/}
           <TopHeader />
