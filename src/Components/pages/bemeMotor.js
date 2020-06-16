@@ -3,7 +3,7 @@ import React from "react";
 function BemeMotor() {
     return (
         <div>
-            <h1>BemeMotor</h1>
+            <h1>استعلام بیمه موتورسیکلت</h1>
         </div>
     );
 }
