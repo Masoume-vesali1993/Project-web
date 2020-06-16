@@ -18,9 +18,9 @@ import Navbar from './Components/Navbar';
 import BemeAmval from './Components/pages/BemeAmval';
 import BemeAshkhas from './Components/pages/BemeAshkhas';
 import BemeMasoliat from './Components/pages/BemeMasoliat';
-// import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
-// import Blog from './Components/pages/Blog';
-// import ComponyBime from './Components/pages/ComponyBime';
+import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
+import Blog from './Components/pages/Blog';
+import ComponyBime from './Components/pages/ComponyBime';
 // import LoginUsing from './Components/pages/Login-Using';
 // import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
@@ -29,8 +29,8 @@ import BemeMasoliat from './Components/pages/BemeMasoliat';
 
 // import Home from "./Components/Hom";
 // import BemeAshkhas from "./Components/BemeAshkhas"
-import Contact from "./Components/Contact";
-import Projects from "./Components/Projects";
+// import Contact from "./Components/Contact";
+// import Projects from "./Components/Projects";
 
 
 
@@ -50,7 +50,9 @@ class App extends Component {
           <Route exact path="/bemeAmval" component={BemeAmval} />
           <Route exact path="/bemeAshkhas" component={BemeAshkhas} />
           <Route exact path="/bemeMasoliat" component={BemeMasoliat} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/BemeVasaiNaglie" component={BemeVasaiNaglie} />
+          <Route exact path="/Blog" component={Blog} />
+          <Route exact path="/ComponyBime" component={ComponyBime} />
 
           <MainPart />
 
