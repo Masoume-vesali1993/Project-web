@@ -55,7 +55,7 @@ class App extends React.Component {
 
         <SubMenu id="samane"
           title={
-            <Link to="/contact">
+            <Link to="/SamaneBazaryabiBimito">
               سامانه بازاریابان بیمنتو
             </Link>
           }
@@ -89,7 +89,7 @@ class App extends React.Component {
           }
         >
             <Menu.Item key="setting:1">
-              <Link to="/contact">
+              <Link to="/BemeMasoliatPezeshgan">
               بیمه مسئولیت پزشگان
               </Link>
             </Menu.Item>
