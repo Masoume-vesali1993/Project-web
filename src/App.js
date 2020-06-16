@@ -24,6 +24,8 @@ import { Route , Link } from 'react-router-dom';
 // import LoginUsing from './Components/pages/Login-Using';
 // import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
+import Navbar from './Components/Navbar';
+
 
 import Home from "./Components/Hom";
 import About from "./Components/About";
@@ -38,10 +40,11 @@ class App extends Component {
   render() {
     return (
     <div>
+        <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/Contact" component={Projects} />
+        <Route exact path="/projects" component={Projects} />
      {/* <Home />
      <About />
      <Contact />
