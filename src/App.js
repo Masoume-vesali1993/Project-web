@@ -15,12 +15,16 @@ import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
 import { Route  } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import BemeAmval from './Components/pages/BemeAmval';
+import BemeAtashSoze from './Components/pages/BemeAtashSoze';
 import BemeMosaferaty from './Components/pages/BemeMosaferaty';
 import BemeMasoliatPezeshgan from './Components/pages/BemeMasoliatPezeshgan';
 import BemeShaghseSales from './Components/pages/BemeShaghseSales';
 import BemeBadane from './Components/pages/BemeBadane';
 import BemeMotor from './Components/pages/BemeMotor';
+import Bemeomr from './Components/pages/Bemeomr';
+import BemeHavadeseAnfrade from './Components/pages/BemeHavadeseAnfrade';
+import DarmanTakmily from './Components/pages/DarmanTakmily';
+import BemeZelzele from './Components/pages/BemeZelzele';
 import Blog from './Components/pages/Blog';
 import ComponyBime from './Components/pages/ComponyBime';
 import LoginUsing from './Components/pages/LoginUsing';
@@ -40,13 +44,17 @@ class App extends Component {
           <Navbar />
 
           
-          <Route exact path="/bemeAmval" component={BemeAmval} />
-          <Route exact path="/bemeAshkhas" component={BemeAshkhas} />
+          <Route exact path="/BemeAtashSoze" component={BemeAtashSoze} />
+          {/* <Route exact path="/bemeAshkhas" component={BemeAshkhas} /> */}
           <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
           <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
           <Route exact path="/bemeBadane" component={BemeBadane} />
-          <Route exact path="/bemeMotor" component={BemeMotor} />
+          <Route exact path="/BemeMotor" component={BemeMotor} />
           <Route exact path="/bemeMosaferaty" component={BemeMosaferaty} />
+          <Route exact path="/bemeomr" component={Bemeomr} />
+          <Route exact path="/BemeHavadeseAnfrade" component={BemeHavadeseAnfrade} />
+          <Route exact path="/DarmanTakmily" component={DarmanTakmily} />
+          <Route exact path="/BemeZelzele" component={BemeZelzele} />
 
           <Route exact path="/Blog" component={Blog} />
           <Route exact path="/ComponyBime" component={ComponyBime} />

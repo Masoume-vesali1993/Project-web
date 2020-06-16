@@ -104,13 +104,13 @@ class App extends React.Component {
           }
         >
             <Menu.Item key="setting:1">
-              <Link to="/BemeAmval">
+              <Link to="/BemeAtashSoze">
               بیمه آتش سوزی
               </Link>
             </Menu.Item>
 
             <Menu.Item key="setting:2">
-              <Link to="/BemeAshkhas">
+              <Link to="/BemeZelzele">
               بیمه زلزله
               </Link>
             </Menu.Item>
@@ -126,25 +126,25 @@ class App extends React.Component {
           }
         >
             <Menu.Item key="setting:1">
-              <Link to="/">
+              <Link to="/BemeMosaferaty">
               بیمه مسافرتی
               </Link>
             </Menu.Item>
 
             <Menu.Item key="setting:2">
-              <Link to="/about">
+              <Link to="/Bemeomr">
               بیمه عمر
               </Link>
             </Menu.Item>
 
             <Menu.Item key="setting:3">
-              <Link to="/">
+              <Link to="/BemeHavadeseAnfrade">
               حوادث انفرادی
               </Link>
             </Menu.Item>
 
             <Menu.Item key="setting:4">
-              <Link to="/about">
+              <Link to="/DarmanTakmily">
               درمان تکمیلی
               </Link>
             </Menu.Item>

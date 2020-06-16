@@ -1,11 +1,11 @@
 import React from "react";
 
-function BemeAmval() {
+function Bemeomr() {
     return (
         <div>
-            <h1>Amval</h1>
+            <h1>Bemeomr</h1>
         </div>
     );
 }
 
-export default BemeAmval;
+export default Bemeomr;
