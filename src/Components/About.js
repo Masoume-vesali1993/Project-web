@@ -1,6 +1,6 @@
 import React from "react";
 
-function Indexv() {
+function About() {
     return (
         <div>
             <h1>WAbout me website</h1>
@@ -8,4 +8,4 @@ function Indexv() {
     );
 }
 
-export default Indexv;
+export default About;

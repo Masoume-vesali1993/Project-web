@@ -46,7 +46,7 @@ class App extends React.Component {
 
         <SubMenu id="login"
           title={
-            <Link to="./Indexv">
+            <Link to="./About">
               ورود/ثبتنام
             </Link>
           }
@@ -55,7 +55,7 @@ class App extends React.Component {
 
         <SubMenu id="samane"
           title={
-            <Link>
+            <Link to="/contact">
               سامانه بازاریابان بیمنتو
             </Link>
           }
@@ -64,31 +64,35 @@ class App extends React.Component {
 
           <SubMenu
           title={
-            <>
+            <Link to="/projects">
               بلاگ
-            </>
+            </Link>
           }
         >
         </SubMenu>
 
         <SubMenu
           title={
-            <>
+            <Link to="/projects">
               شرکت های بیمه
-            </>
+            </Link>
           }
         >
         </SubMenu>
 
         <SubMenu
           title={
-            <>
+            <Link tp="/">
               بیمه مسئولیت
               <SettingOutlined />
-            </>
+            </Link>
           }
         >
-            <Menu.Item key="setting:1">بیمه مسئولیت پزشگان</Menu.Item>
+            <Menu.Item key="setting:1">
+              <Link to="/contact">
+              بیمه مسئولیت پزشگان
+              </Link>
+            </Menu.Item>
         </SubMenu>
 
         <SubMenu
@@ -99,7 +103,12 @@ class App extends React.Component {
             </>
           }
         >
-            <Menu.Item key="setting:1">بیمه آتش سوزی</Menu.Item>
+            <Menu.Item key="setting:1">
+              <Link to="about">
+              بیمه آتش سوزی
+              </Link>
+            </Menu.Item>
+
             <Menu.Item key="setting:2">بیمه زلزله</Menu.Item>
         </SubMenu>
 
