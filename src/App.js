@@ -47,7 +47,7 @@ class App extends Component {
        {/* ************************************************************************ ُ*/}
           <TopHeader />
 
-          <BrowserRouter>
+          {/* <BrowserRouter>
           <div>
             <Route path="/" component={Navbar} />
 
@@ -64,7 +64,7 @@ class App extends Component {
             </Switch>
             
           </div>
-       </BrowserRouter>
+       </BrowserRouter> */}
 
           {/* <MenuPart/> */}
 
