@@ -14,21 +14,21 @@ import EndFooer from './Components/Bimito/EndFooer';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
 import { Route , Link } from 'react-router-dom';
-// import Navbar from './Components/Bimito/Navbar';
-// import BemeAmval from './Components/pages/BemeAmval';
-// import BemeAshkhas from './Components/pages/BemeAshkhas';
-// import BemeMasoliat from './Components/pages/BemeMasoliat';
+import Navbar from './Components/Navbar';
+import BemeAmval from './Components/pages/BemeAmval';
+import BemeAshkhas from './Components/pages/BemeAshkhas';
+import BemeMasoliat from './Components/pages/BemeMasoliat';
 // import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
 // import Blog from './Components/pages/Blog';
 // import ComponyBime from './Components/pages/ComponyBime';
 // import LoginUsing from './Components/pages/Login-Using';
 // import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
 
 
-import Home from "./Components/Hom";
-import About from "./Components/About"
+// import Home from "./Components/Hom";
+// import BemeAshkhas from "./Components/BemeAshkhas"
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 
@@ -43,13 +43,13 @@ class App extends Component {
 
        {/* ************************************************************************ ُ*/}
           <TopHeader />
-          
+
           <Navbar />
 
           
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/bemeAmval" component={BemeAmval} />
+          <Route exact path="/bemeAshkhas" component={BemeAshkhas} />
+          <Route exact path="/bemeMasoliat" component={BemeMasoliat} />
           <Route exact path="/projects" component={Projects} />
 
           <MainPart />
