@@ -11,18 +11,18 @@ import Application from './Components/Bimito/Application';
 import Footer from './Components/Bimito/Footer';
 import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
-import { Route , Link } from 'react-router-dom';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
-import Navbar from './Components/Bimito/Navbar';
-import BemeAmval from './Components/pages/BemeAmval';
-import BemeAshkhas from './Components/pages/BemeAshkhas';
-import BemeMasoliat from './Components/pages/BemeMasoliat';
-import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
-import Blog from './Components/pages/Blog';
-import ComponyBime from './Components/pages/ComponyBime';
-import LoginUsing from './Components/pages/Login-Using';
-import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
+import { Route , Link } from 'react-router-dom';
+// import Navbar from './Components/Bimito/Navbar';
+// import BemeAmval from './Components/pages/BemeAmval';
+// import BemeAshkhas from './Components/pages/BemeAshkhas';
+// import BemeMasoliat from './Components/pages/BemeMasoliat';
+// import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
+// import Blog from './Components/pages/Blog';
+// import ComponyBime from './Components/pages/ComponyBime';
+// import LoginUsing from './Components/pages/Login-Using';
+// import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
 
 import Home from "./Components/Hom";
@@ -38,11 +38,14 @@ class App extends Component {
   render() {
     return (
     <div>
-
-     <Home />
+        <Route exact to="/" component={Home} />
+        <Route exact to="/about" component={About} />
+        <Route exact to="/contact" component={Contact} />
+        <Route exact to="/projects" component={Projects} />
+     {/* <Home />
      <About />
      <Contact />
-     <Projects />
+     <Projects /> */}
 
        {/* ************************************************************************ ُ*/}
           <TopHeader />
