@@ -21,7 +21,7 @@ import BemeMasoliat from './Components/pages/BemeMasoliat';
 import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
 import Blog from './Components/pages/Blog';
 import ComponyBime from './Components/pages/ComponyBime';
-// import LoginUsing from './Components/pages/Login-Using';
+import LoginUsing from './Components/pages/LoginUsing';
 // import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
 // import Navbar from './Components/Navbar';
@@ -53,6 +53,7 @@ class App extends Component {
           <Route exact path="/BemeVasaiNaglie" component={BemeVasaiNaglie} />
           <Route exact path="/Blog" component={Blog} />
           <Route exact path="/ComponyBime" component={ComponyBime} />
+          <Route exact path="/LoginUsing" component={LoginUsing} />
 
           <MainPart />
 
