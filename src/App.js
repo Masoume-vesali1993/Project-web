@@ -28,7 +28,7 @@ import Navbar from './Components/Navbar';
 
 
 import Home from "./Components/Hom";
-import About from "./Components/About";
+import Indexv from "./Components/Indexv";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 
@@ -42,7 +42,7 @@ class App extends Component {
     <div>
         <Navbar />
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/index" component={Index} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
      {/* <Home />
