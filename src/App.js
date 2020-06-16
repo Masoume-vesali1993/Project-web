@@ -13,7 +13,7 @@ import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
-import { Route , Link } from 'react-router-dom';
+import { Route  } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import BemeAmval from './Components/pages/BemeAmval';
 import BemeAshkhas from './Components/pages/BemeAshkhas';
