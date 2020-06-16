@@ -163,19 +163,19 @@ class App extends React.Component {
           }
         >
             <Menu.Item key="setting:1">
-              <Link to="/projects">
+              <Link to="/bemeShaghseSales">
               بیمه شخص ثالث 
               </Link>
             </Menu.Item>
 
             <Menu.Item key="setting:2">
-              <Link to="/about">
+              <Link to="/bemeBadane">
               بیمه بدنه
               </Link>
             </Menu.Item>
 
             <Menu.Item key="setting:3">
-              <Link to="/about">
+              <Link to="/bemeMotor">
               بیمه موتور
               </Link>
             </Menu.Item>

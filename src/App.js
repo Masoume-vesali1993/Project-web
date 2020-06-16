@@ -16,9 +16,11 @@ import Scroll from './Components/Bimito/Scroll';
 import { Route  } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import BemeAmval from './Components/pages/BemeAmval';
-import BemeAshkhas from './Components/pages/BemeAshkhas';
+import BemeMosaferaty from './Components/pages/BemeMosaferaty';
 import BemeMasoliatPezeshgan from './Components/pages/BemeMasoliatPezeshgan';
-import BemeVasaiNaglie from './Components/pages/BemeVasaiNaglie';
+import BemeShaghseSales from './Components/pages/BemeShaghseSales';
+import BemeBadane from './Components/pages/BemeBadane';
+import BemeMotor from './Components/pages/BemeMotor';
 import Blog from './Components/pages/Blog';
 import ComponyBime from './Components/pages/ComponyBime';
 import LoginUsing from './Components/pages/LoginUsing';
@@ -40,8 +42,12 @@ class App extends Component {
           
           <Route exact path="/bemeAmval" component={BemeAmval} />
           <Route exact path="/bemeAshkhas" component={BemeAshkhas} />
-          <Route exact path="/BemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
-          <Route exact path="/BemeVasaiNaglie" component={BemeVasaiNaglie} />
+          <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
+          <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
+          <Route exact path="/bemeBadane" component={BemeBadane} />
+          <Route exact path="/bemeMotor" component={BemeMotor} />
+          <Route exact path="/bemeMosaferaty" component={BemeMosaferaty} />
+
           <Route exact path="/Blog" component={Blog} />
           <Route exact path="/ComponyBime" component={ComponyBime} />
           <Route exact path="/LoginUsing" component={LoginUsing} />
