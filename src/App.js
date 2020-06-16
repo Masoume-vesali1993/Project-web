@@ -38,10 +38,10 @@ class App extends Component {
   render() {
     return (
     <div>
-        <Route exact to="/" component={Home} />
-        <Route exact to="/about" component={About} />
-        <Route exact to="/contact" component={Contact} />
-        <Route exact to="/projects" component={Projects} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/projects" component={Projects} />
      {/* <Home />
      <About />
      <Contact />
