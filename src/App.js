@@ -40,39 +40,17 @@ class App extends Component {
   render() {
     return (
     <div>
-        <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/projects" component={Projects} />
-     {/* <Home />
-     <About />
-     <Contact />
-     <Projects /> */}
 
        {/* ************************************************************************ ُ*/}
           <TopHeader />
+          
+          <Navbar />
 
-          {/* <BrowserRouter>
-          <div>
-            <Route path="/" component={Navbar} />
-
-            <Switch>
-              <Route path="/BemeAshkhas" render={(props) => <BemeAshkhas {...props} onPostCreated={this.addNewPost} />} /> 
-              <Route path="/BemeAmval" exact render={(props) => <BemeAmval {...props} posts={this.state.posts} x={true} /> } />
-              <Route path="/Blog" render={(props) => <h1>blog list</h1> } />
-              <Route path="/BemeMasoliat" render={(props) => <BemeMasoliat post={this.findPostById(props.match.params.id)} /> } />
-              <Route path="/BemeVasaiNaglie" render={(props) => <BemeVasaiNaglie post={this.findPostById(props.match.params.id)} /> } />
-              <Route path="/BemeAshkhas" render={(props) => <BemeAshkhas {...props} onPostCreated={this.addNewPost} />} /> 
-              <Route path="/ComponyBime" render={(props) => <ComponyBime {...props} onPostCreated={this.addNewPost} />} /> 
-              <Route path="/LoginUsing" render={(props) => <LoginUsing {...props} onPostCreated={this.addNewPost} />} /> 
-              <Route path="/SamaneBazaryabiBimito" render={(props) => <SamaneBazaryabiBimito {...props} onPostCreated={this.addNewPost} />} /> 
-            </Switch>
-            
-          </div>
-       </BrowserRouter> */}
-
-          {/* <MenuPart/> */}
+          
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/projects" component={Projects} />
 
           <MainPart />
 

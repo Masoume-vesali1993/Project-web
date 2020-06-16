@@ -1,8 +1,27 @@
+// import React from 'react';
+// import {Link} from 'react-router-dom';
+
+// function NavBar(){
+//     return(
+//         <ul>
+//             <li>
+//                 <link to="/">Home</link>
+//                 <link to="/about">About</link>
+//                 <link to="/contact">Contact</link>
+//                 <link to="/projects">Projects</link>
+//             </li>
+//         </ul>
+//     )
+// }
+
+// export default NavBar;
+
+
 import React from 'react';
-import './styles.css';
+// import './styles.css';
 import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
-import bimito from './Img/bimito.png'
+// import bimito from './Img/bimito.png'
 import {Link} from 'react-router-dom';
 
 
@@ -27,7 +46,7 @@ class App extends React.Component {
 
         <SubMenu id="login"
           title={
-            <Link to="./Index">
+            <Link to="./About">
               ورود/ثبتنام
             </Link>
           }
@@ -36,7 +55,7 @@ class App extends React.Component {
 
         <SubMenu id="samane"
           title={
-            <Link>
+            <Link to="/contact">
               سامانه بازاریابان بیمنتو
             </Link>
           }
@@ -45,18 +64,18 @@ class App extends React.Component {
 
           <SubMenu
           title={
-            <>
+            <Link to="/projects">
               بلاگ
-            </>
+            </Link>
           }
         >
         </SubMenu>
 
         <SubMenu
           title={
-            <>
+            <Link to="/projects">
               شرکت های بیمه
-            </>
+            </Link>
           }
         >
         </SubMenu>
@@ -69,7 +88,11 @@ class App extends React.Component {
             </>
           }
         >
-            <Menu.Item key="setting:1">بیمه مسئولیت پزشگان</Menu.Item>
+            <Menu.Item key="setting:1">
+              <Link to="/contact">
+              بیمه مسئولیت پزشگان
+              </Link>
+            </Menu.Item>
         </SubMenu>
 
         <SubMenu
@@ -80,8 +103,17 @@ class App extends React.Component {
             </>
           }
         >
-            <Menu.Item key="setting:1">بیمه آتش سوزی</Menu.Item>
-            <Menu.Item key="setting:2">بیمه زلزله</Menu.Item>
+            <Menu.Item key="setting:1">
+              <Link to="/">
+              بیمه آتش سوزی
+              </Link>
+            </Menu.Item>
+
+            <Menu.Item key="setting:2">
+              <Link to="/about">
+              بیمه زلزله
+              </Link>
+            </Menu.Item>
         </SubMenu>
 
 
@@ -93,10 +125,30 @@ class App extends React.Component {
             </>
           }
         >
-            <Menu.Item key="setting:1">بیمه مسافرتی</Menu.Item>
-            <Menu.Item key="setting:2">بیمه عمر</Menu.Item>
-            <Menu.Item key="setting:3">حوادث انفرادی</Menu.Item>
-            <Menu.Item key="setting:4">درمان تکمیلی</Menu.Item>
+            <Menu.Item key="setting:1">
+              <Link to="/">
+              بیمه مسافرتی
+              </Link>
+            </Menu.Item>
+
+            <Menu.Item key="setting:2">
+              <Link to="/about">
+              بیمه عمر
+              </Link>
+            </Menu.Item>
+
+            <Menu.Item key="setting:3">
+              <Link to="/">
+              حوادث انفرادی
+              </Link>
+            </Menu.Item>
+
+            <Menu.Item key="setting:4">
+              <Link to="/about">
+              درمان تکمیلی
+              </Link>
+            </Menu.Item>
+            
         </SubMenu>
 
         <SubMenu
@@ -110,13 +162,28 @@ class App extends React.Component {
             </>
           }
         >
-            <Menu.Item key="setting:1">بیمه شخص ثالث</Menu.Item>
-            <Menu.Item key="setting:2">بیمه بدنه</Menu.Item>
-            <Menu.Item key="setting:3">بیمه موتور</Menu.Item>
+            <Menu.Item key="setting:1">
+              <Link to="/projects">
+              بیمه شخص ثالث 
+              </Link>
+            </Menu.Item>
+
+            <Menu.Item key="setting:2">
+              <Link to="/about">
+              بیمه بدنه
+              </Link>
+            </Menu.Item>
+
+            <Menu.Item key="setting:3">
+              <Link to="/about">
+              بیمه موتور
+              </Link>
+            </Menu.Item>
+            
         </SubMenu>
 
         <Menu.Item key="alipay">
-          <img src={bimito} />
+          {/* <img src={bimito} /> */}
         </Menu.Item>
 
       </Menu>
