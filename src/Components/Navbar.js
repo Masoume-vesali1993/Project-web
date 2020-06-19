@@ -1,27 +1,7 @@
-// import React from 'react';
-// import {Link} from 'react-router-dom';
-
-// function NavBar(){
-//     return(
-//         <ul>
-//             <li>
-//                 <link to="/">Home</link>
-//                 <link to="/about">About</link>
-//                 <link to="/contact">Contact</link>
-//                 <link to="/projects">Projects</link>
-//             </li>
-//         </ul>
-//     )
-// }
-
-// export default NavBar;
-
-
 import React from 'react';
-// import './styles.css';
 import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
-// import bimito from './Img/bimito.png'
+import bimito from '../Components/Bimito/Img/bimito.png'
 import {Link} from 'react-router-dom';
 
 
@@ -183,7 +163,7 @@ class App extends React.Component {
         </SubMenu>
 
         <Menu.Item key="alipay">
-          {/* <img src={bimito} /> */}
+          <img src={bimito} />
         </Menu.Item>
 
       </Menu>
