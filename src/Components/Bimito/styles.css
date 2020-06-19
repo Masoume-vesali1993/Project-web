@@ -262,5 +262,9 @@
     padding: 0;
     margin: 0;
 }
+.title-text{
+    text-align: center;
+    padding: 29px;
+}
 
 
