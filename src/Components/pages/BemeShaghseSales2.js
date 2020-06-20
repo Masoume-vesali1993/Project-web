@@ -6,12 +6,27 @@ import AwesomeSlider from 'react-awesome-slider';
 // import AwsSliderStyles from 'react-awesome-slider/src/styles.scss';
 
 
+
 function ComponyBime() {
     return (
         <div>
             <Row>
                 <Col span={9}>
                     <h2>شرکت‌های ارائه‌دهنده بیمه ثالث</h2>
+                    <Row>
+                        <Col span={12}><a>بیمه شخص ثالث پارسیان</a></Col>
+                        <Col span={12}>img</Col>
+
+                        <Col span={12}><a>بیمه شخص ثالث آسیا</a></Col>
+                        <Col span={12}>img</Col>
+
+                        <Col span={12}><a>بیمه شخص ثالث ایران</a></Col>
+                        <Col span={12}>img</Col>
+
+                        <Col span={12}><a>بیمه شخص ثالث دانا</a></Col>
+                        <Col span={12}>img</Col>
+                        
+                    </Row>
                 </Col>
                 <Col span={15} className="txt_beme">
                     <h2>بیمه شخص ثالث</h2>
