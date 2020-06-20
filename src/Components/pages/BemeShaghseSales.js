@@ -5,9 +5,10 @@ import 'antd/dist/antd.css';
 import { Form, Input, Button, Select } from 'antd';
 // import Navbar from "../Navbar";
 // import Footer from "../Bimito/Footer";
+import BemeShaghseSales2 from './BemeShaghseSales2';
 
-        const { Option } = Select;
-        const layout = {
+const { Option } = Select;
+    const layout = {
         labelCol: {
             span: 8,
         },
@@ -15,14 +16,14 @@ import { Form, Input, Button, Select } from 'antd';
             span: 16,
         },
         };
-        const tailLayout = {
+    const tailLayout = {
         wrapperCol: {
             offset: 8,
             span: 16,
         },
         };
 
-        class Demo extends React.Component {
+    class Demo extends React.Component {
         formRef = React.createRef();
 
         onGenderChange = value => {
@@ -197,6 +198,8 @@ import { Form, Input, Button, Select } from 'antd';
                                         </Form.Item>
                                         </Col>
                                             </Row>
+
+                                            <BemeShaghseSales2 />
                                                 </div>
                                                     </Form>
                                                         );
