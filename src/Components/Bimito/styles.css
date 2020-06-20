@@ -262,9 +262,13 @@
     padding: 0;
     margin: 0;
 }
-.title-text{
+.title-text h1{
     text-align: center;
     padding: 29px;
+}
+.title-text h5{
+    text-align: right;
+    padding-right: 95px;
 }
 
 
