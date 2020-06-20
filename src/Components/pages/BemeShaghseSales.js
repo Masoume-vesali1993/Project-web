@@ -206,6 +206,6 @@ const { Option } = Select;
                                                             }
                                                                 }
 
-ReactDOM.render(<Demo />, document.getElementById('container'));
+// ReactDOM.render(<Demo />, document.getElementById('container'));
 
 export default Demo;
