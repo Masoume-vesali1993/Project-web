@@ -13,7 +13,8 @@ import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
-import { Route  } from 'react-router-dom';
+// import { Route  } from 'react-router-dom';
+import { Switch, Route, Redirect } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import BemeAtashSoze from './Components/pages/BemeAtashSoze';
 import BemeMosaferaty from './Components/pages/BemeMosaferaty';
@@ -44,24 +45,25 @@ class App extends Component {
 
           <Navbar />
 
+          <Switch>
+            <Route exact path="/BemeAtashSoze" component={BemeAtashSoze} />
+            {/* <Route exact path="/bemeAshkhas" component={BemeAshkhas} /> */}
+            <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
+            <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
+            <Route exact path="/bemeBadane" component={BemeBadane} />
+            <Route exact path="/BemeMotor" component={BemeMotor} />
+            <Route exact path="/bemeMosaferaty" component={BemeMosaferaty} />
+            <Route exact path="/bemeomr" component={Bemeomr} />
+            <Route exact path="/BemeHavadeseAnfrade" component={BemeHavadeseAnfrade} />
+            <Route exact path="/DarmanTakmily" component={DarmanTakmily} />
+            <Route exact path="/BemeZelzele" component={BemeZelzele} />
+
+            <Route exact path="/Blog" component={Blog} />
+            <Route exact path="/ComponyBime" component={ComponyBime} />
+            <Route exact path="/LoginUsing" component={LoginUsing} />
+            <Route exact path="/SamaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
+          </Switch>
           
-          <Route exact path="/BemeAtashSoze" component={BemeAtashSoze} />
-          {/* <Route exact path="/bemeAshkhas" component={BemeAshkhas} /> */}
-          <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
-          <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
-          <Route exact path="/bemeBadane" component={BemeBadane} />
-          <Route exact path="/BemeMotor" component={BemeMotor} />
-          <Route exact path="/bemeMosaferaty" component={BemeMosaferaty} />
-          <Route exact path="/bemeomr" component={Bemeomr} />
-          <Route exact path="/BemeHavadeseAnfrade" component={BemeHavadeseAnfrade} />
-          <Route exact path="/DarmanTakmily" component={DarmanTakmily} />
-          <Route exact path="/BemeZelzele" component={BemeZelzele} />
-
-          <Route exact path="/Blog" component={Blog} />
-          <Route exact path="/ComponyBime" component={ComponyBime} />
-          <Route exact path="/LoginUsing" component={LoginUsing} />
-          <Route exact path="/SamaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
-
           <MainPart />
 
           <Form/>
