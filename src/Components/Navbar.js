@@ -163,7 +163,9 @@ class App extends React.Component {
         </SubMenu>
 
         <Menu.Item key="alipay">
-          <img src={bimito} />
+          <Link to="/MenuPage">
+              <img src={bimito} />
+          </Link>
         </Menu.Item>
 
       </Menu>
