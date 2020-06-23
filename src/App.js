@@ -14,21 +14,21 @@ import EndFooer from './Components/Bimito/EndFooer';
 import TopHeader from './Components/Bimito/TopHeader';
 import Scroll from './Components/Bimito/Scroll';
 import Navbar from './Components/Navbar';
-// import { Switch, Route, Redirect } from "react-router-dom";
-// import BemeAtashSoze from './Components/pages/BemeAtashSoze';
-// import BemeMosaferaty from './Components/pages/BemeMosaferaty';
-// import BemeMasoliatPezeshgan from './Components/pages/BemeMasoliatPezeshgan';
-// import BemeShaghseSales from './Components/pages/BemeShaghseSales';
-// import BemeBadane from './Components/pages/BemeBadane';
-// import BemeMotor from './Components/pages/BemeMotor';
-// import Bemeomr from './Components/pages/Bemeomr';
-// import BemeHavadeseAnfrade from './Components/pages/BemeHavadeseAnfrade';
-// import DarmanTakmily from './Components/pages/DarmanTakmily';
-// import BemeZelzele from './Components/pages/BemeZelzele';
-// import Blog from './Components/pages/Blog';
-// import ComponyBime from './Components/pages/ComponyBime';
-// import LoginUsing from './Components/pages/LoginUsing';
-// import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
+import { Switch, Route, Redirect } from "react-router-dom";
+import BemeAtashSoze from './Components/pages/BemeAtashSoze';
+import BemeMosaferaty from './Components/pages/BemeMosaferaty';
+import BemeMasoliatPezeshgan from './Components/pages/BemeMasoliatPezeshgan';
+import BemeShaghseSales from './Components/pages/BemeShaghseSales';
+import BemeBadane from './Components/pages/BemeBadane';
+import BemeMotor from './Components/pages/BemeMotor';
+import Bemeomr from './Components/pages/Bemeomr';
+import BemeHavadeseAnfrade from './Components/pages/BemeHavadeseAnfrade';
+import DarmanTakmily from './Components/pages/DarmanTakmily';
+import BemeZelzele from './Components/pages/BemeZelzele';
+import Blog from './Components/pages/Blog';
+import ComponyBime from './Components/pages/ComponyBime';
+import LoginUsing from './Components/pages/LoginUsing';
+import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 
 
 
@@ -44,11 +44,10 @@ class App extends Component {
 
           <Navbar />
 
-{/* 
           <Switch>
 
             <Route exact path="/BemeAtashSoze" component={BemeAtashSoze} />
-            <Route exact path="/bemeAshkhas" component={BemeAshkhas} />
+            {/* <Route exact path="/bemeAshkhas" component={BemeAshkhas} /> */}
             <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
             <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
             <Route exact path="/bemeBadane" component={BemeBadane} />
@@ -63,7 +62,7 @@ class App extends Component {
             <Route exact path="/LoginUsing" component={LoginUsing} />
             <Route exact path="/SamaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
             
-          </Switch> */}
+          </Switch>
 
           <MainPart />
 

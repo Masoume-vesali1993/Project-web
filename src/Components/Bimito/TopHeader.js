@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import NenuPage from '../Bimito/MenuPage';
+
 
 export default class extends React.Component {
 
@@ -17,7 +17,6 @@ export default class extends React.Component {
                 <div className="topheader">
                   <div className="text-header">
                     <h3> طبق اعلام بیمه مرکزی، با توجه به شیوع کرونا، دریافت نسخه فیزیکی بیمه‌نامه تا 15 اردیبهشت ضروری نیست</h3>
-                    <NenuPage />
                   </div>
                 </div>
             </div>
