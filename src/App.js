@@ -5,15 +5,15 @@ import 'antd/dist/antd.css';
 // import MainPart from './Components/Bimito/MainPart';
 // import Form from './Components/Bimito/Form'
 // import Index from './Components/Bimito/Index';
-import Dargah from './Components/Bimito/Dargah';
-import Application from './Components/Bimito/Application';
+// import Dargah from './Components/Bimito/Dargah';
+// import Application from './Components/Bimito/Application';
 import Footer from './Components/Bimito/Footer';
-import Bimito from './Components/Bimito/Biminto';
+// import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
-// import TopHeader from './Components/Bimito/TopHeader';
-import Scroll from './Components/Bimito/Scroll';
-// import Navbar from './Components/Navbar';
-import { Switch, Route, Redirect } from "react-router-dom";
+import TopHeader from './Components/Bimito/TopHeader';
+// import Scroll from './Components/Bimito/Scroll';
+import Navbar from './Components/Navbar';
+import { Switch, Route } from "react-router-dom";
 import BemeAtashSoze from './Components/pages/BemeAtashSoze';
 import BemeMosaferaty from './Components/pages/BemeMosaferaty';
 import BemeMasoliatPezeshgan from './Components/pages/BemeMasoliatPezeshgan';
@@ -28,10 +28,8 @@ import Blog from './Components/pages/Blog';
 import ComponyBime from './Components/pages/ComponyBime';
 import LoginUsing from './Components/pages/LoginUsing';
 import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
-import MenuPage from './Components/Bimito/MenuPage';
 
-
-
+// import MenuPage from './Components/Bimito/MenuPage';
 
 
 
@@ -43,10 +41,11 @@ class App extends Component {
     <div>
 
        {/* ************************************************************************ ُ*/}
-          {/* <TopHeader /> */}
+          <TopHeader />
 
-          {/* <Navbar /> */}
-          <MenuPage/>
+          <Navbar />
+
+          {/* <MenuPage/> */}
 
           <Switch>
 
@@ -74,17 +73,18 @@ class App extends Component {
           
           {/* <Index /> */}
 
-          <Dargah />
+          {/* <Dargah /> */}
          
-          <Application />
+          {/* <Application /> */}
 
-          <Bimito />
+          {/* <Bimito /> */}
+          
                 
           <Footer />
                   
           <EndFooer />
           
-          <Scroll />
+          {/* <Scroll /> */}
                  
     </div>
 
