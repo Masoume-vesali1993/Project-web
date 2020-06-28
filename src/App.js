@@ -2,16 +2,9 @@ import React,{Component} from 'react';
 import './App.css';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-// import MainPart from './Components/Bimito/MainPart';
-// import Form from './Components/Bimito/Form'
-// import Index from './Components/Bimito/Index';
-// import Dargah from './Components/Bimito/Dargah';
-// import Application from './Components/Bimito/Application';
 import Footer from './Components/Bimito/Footer';
-// import Bimito from './Components/Bimito/Biminto';
 import EndFooer from './Components/Bimito/EndFooer';
 import TopHeader from './Components/Bimito/TopHeader';
-// import Scroll from './Components/Bimito/Scroll';
 import Navbar from './Components/Navbar';
 import { Switch, Route } from "react-router-dom";
 import BemeAtashSoze from './Components/pages/BemeAtashSoze';
@@ -28,11 +21,7 @@ import Blog from './Components/pages/Blog';
 import ComponyBime from './Components/pages/ComponyBime';
 import LoginUsing from './Components/pages/LoginUsing';
 import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
-
-// import MenuPage from './Components/Bimito/MenuPage';
-
-
-
+import MenuPage from './Components/Bimito/MenuPage';
 
 
 class App extends Component {
@@ -45,12 +34,11 @@ class App extends Component {
 
           <Navbar />
 
-          {/* <MenuPage/> */}
+          {/* <MenuPage /> */}
 
           <Switch>
-
+             <Route path="/"  component={MenuPage} /> 
             <Route exact path="/BemeAtashSoze" component={BemeAtashSoze} />
-            {/* <Route exact path="/bemeAshkhas" component={BemeAshkhas} /> */}
             <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
             <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
             <Route exact path="/bemeBadane" component={BemeBadane} />
@@ -66,25 +54,10 @@ class App extends Component {
             <Route exact path="/SamaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
             
           </Switch>
-
-          {/* <MainPart /> */}
-
-          {/* <Form/> */}
-          
-          {/* <Index /> */}
-
-          {/* <Dargah /> */}
-         
-          {/* <Application /> */}
-
-          {/* <Bimito /> */}
-          
-                
+           
           <Footer />
                   
           <EndFooer />
-          
-          {/* <Scroll /> */}
                  
     </div>
 
