@@ -47,20 +47,20 @@ class App extends Component {
           <Switch>
             
             <Route exact path="/" component={Home} /> 
-            <Route exact path="/bemeAtashSoze" component={BemeAtashSoze} />
-            <Route exact path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
-            <Route exact path="/bemeShaghseSales" component={BemeShaghseSales} />
-            <Route exact path="/bemeBadane" component={BemeBadane} />
-            <Route exact path="/bemeMotor" component={BemeMotor} />
-            <Route exact path="/bemeMosaferaty" component={BemeMosaferaty} />
-            <Route exact path="/bemeomr" component={Bemeomr} />
-            <Route exact path="/bemeHavadeseAnfrade" component={BemeHavadeseAnfrade} />
-            <Route exact path="/darmanTakmily" component={DarmanTakmily} />
-            <Route exact path="/bemeZelzele" component={BemeZelzele} />
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/componyBime" component={ComponyBime} />
-            <Route exact path="/loginUsing" component={LoginUsing} />
-            <Route exact path="/samaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
+            <Route  path="/bemeAtashSoze" component={BemeAtashSoze} />
+            <Route  path="/bemeMasoliatPezeshgan" component={BemeMasoliatPezeshgan} />
+            <Route  path="/bemeShaghseSales" component={BemeShaghseSales} />
+            <Route  path="/bemeBadane" component={BemeBadane} />
+            <Route  path="/bemeMotor" component={BemeMotor} />
+            <Route  path="/bemeMosaferaty" component={BemeMosaferaty} />
+            <Route  path="/bemeomr" component={Bemeomr} />
+            <Route  path="/bemeHavadeseAnfrade" component={BemeHavadeseAnfrade} />
+            <Route  path="/darmanTakmily" component={DarmanTakmily} />
+            <Route  path="/bemeZelzele" component={BemeZelzele} />
+            <Route  path="/blog" component={Blog} />
+            <Route  path="/componyBime" component={ComponyBime} />
+            <Route  path="/loginUsing" component={LoginUsing} />
+            <Route  path="/samaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
             
           </Switch>
 
