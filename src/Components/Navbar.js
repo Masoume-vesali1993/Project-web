@@ -4,8 +4,6 @@ import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/ico
 import bimito from '../Components/Bimito/Img/bimito.png'
 import {Link} from 'react-router-dom';
 
-
-
 const { SubMenu } = Menu;
 
 class App extends React.Component {
@@ -163,7 +161,7 @@ class App extends React.Component {
         </SubMenu>
 
         <Menu.Item key="alipay">
-          <Link to="/MenuPage">
+          <Link to="/Home">
               <img src={bimito} />
           </Link>
         </Menu.Item>
