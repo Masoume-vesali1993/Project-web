@@ -11,7 +11,7 @@ const { TabPane } = Tabs;
 
 function ComponyBime() {
     return (
-        <div>
+        <div className="allpart">
 
 
             <Row>

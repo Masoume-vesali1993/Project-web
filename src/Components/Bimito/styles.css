@@ -298,4 +298,11 @@
     position: relative;
     margin: 45px auto;
 }
+.allpart{
+    max-width: 1200px;
+    min-height: 550px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 0 40px;
+}
 
