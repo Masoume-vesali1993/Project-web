@@ -197,8 +197,9 @@ render() {
                                 </Col>
                                     </Row>
 
-                                    <BemeShaghseSales2 />
                                         </div>
+                                    <BemeShaghseSales2 />
+
                                             </Form>
                                                 );
                                                     }

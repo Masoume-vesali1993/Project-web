@@ -49,7 +49,7 @@ render() {
     return (
     <Form {...layout} ref={this.formRef} name="control-ref" onFinish={this.onFinish}>
         <div className="title-text">
-            <h1>استعلام بیمه موتور سیکلت</h1>
+            <h1>استعلام بیمه موتور</h1>
             <Row>
                 <Col span={12}></Col>
 
@@ -197,8 +197,9 @@ render() {
                                 </Col>
                                     </Row>
 
-                                    <BemeShaghseSales2 />
                                         </div>
+                                    <BemeShaghseSales2 />
+
                                             </Form>
                                                 );
                                                     }
