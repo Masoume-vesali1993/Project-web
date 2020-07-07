@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom';
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import AwesomeSlider from 'react-awesome-slider';
+import { Tabs } from 'antd';
 // import AwsSliderStyles from 'react-awesome-slider/src/styles.scss';
 
 
+const { TabPane } = Tabs;
 
 function ComponyBime() {
     return (
         <div>
+
+
             <Row>
                 <Col span={9}>
                     <h2>شرکت‌های ارائه‌دهنده بیمه ثالث</h2>
@@ -28,7 +32,31 @@ function ComponyBime() {
                         
                     </Row>
                 </Col>
+                
                 <Col span={15} className="txt_beme">
+                {/* <Col span={12}></Col> */}
+                {/* <Col span={12}> */}
+            <Tabs defaultActiveKey="2">
+                <TabPane
+                tab={
+                    <span>
+                    {/* <AppleOutlined /> */}
+                    سوالات متداول
+                    </span>
+                }
+                key="1"
+                >
+                Tab 1
+                </TabPane>
+                <TabPane
+                tab={
+                    <span>
+                    {/* <AndroidOutlined /> */}
+                    درباره بیمه شخص ثالث
+                    </span>
+                }
+                key="2"
+                >
                     <h2>بیمه شخص ثالث</h2>
                     <p>بیمه شخص ثالث
                      در میان انواع طرح‌های بیمه‌ای که از جانب شرکت‌های مختلف ارائه می‌شوند، بیمه شخص ثالث همچنان پرمخاطب‌ترین نوع بیمه است. بدون شک یکی از دلایل اصلی سهم بالای بیمه شخص ثالث در بازار ایران، اجباری بودن این بیمه است. به‌صورتی‌که اگر وسیله نقلیه‌ای تحت این پوشش نباشد، ممکن است عواقب جبران‌ناپذیری داشته باشد که به آن خواهیم پرداخت
@@ -66,6 +94,9 @@ function ComponyBime() {
                         <br/>
                         در مجموع با بررسی از طریق وب‌سایت و اپلیکیشن بیمیتو متوجه خواهید شد که در مورد بیمه شخص ثالث، نرخ بیمه شرکت‌های مختلف با یکدیگر تفاوت چندانی ندارد و عامل اصلی برتری یک شرکت به شرکت‌های دیگر کیفیت خدمات‌دهی آن است که البته این عامل نیز در سامانه بیمیتو بر اساس نظرسنجی‌ها و آمار بیمه مرکزی قابل مقایسه است
                     </p>
+                </TabPane>
+             </Tabs>,
+
                 </Col>
             </Row>
 
