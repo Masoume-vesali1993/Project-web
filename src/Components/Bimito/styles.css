@@ -304,5 +304,9 @@
     margin: 0 auto;
     background: #fff;
     padding: 20px 0 40px;
+    box-shadow: rgb(197, 197, 197) 1px 1px 15px;
+}
+.box-left{
+    text-align: center;
 }
 

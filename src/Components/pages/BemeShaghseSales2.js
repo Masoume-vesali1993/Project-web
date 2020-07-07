@@ -15,7 +15,7 @@ function ComponyBime() {
 
 
             <Row>
-                <Col span={9}>
+                <Col span={9} className="box-left">
                     <h2>شرکت‌های ارائه‌دهنده بیمه ثالث</h2>
                     <Row>
                         <Col span={12}><a>بیمه شخص ثالث پارسیان</a></Col>
