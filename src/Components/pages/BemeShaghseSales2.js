@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
 import { Collapse,Carousel } from 'antd';
-
+import '../Bimito/styles.css';
 
 
 
@@ -116,10 +116,13 @@ function ComponyBime() {
                 <h3>مشتریان بیمیتو چه می گویند؟</h3>
                 <Carousel autoplay>
                     <div>
-                    <h3>1</h3>
+                    <h3>معصومه وصالی</h3>
+                    <p>همیشه دوست داشتم ماشینمو بیمه بدنه کنم اما نمی‌دونستم اصلاً چه خسارتایی رو پوشش می‌ده. خلاصه با سرچ و ... به یکی از مطالب بلاگتون رسیدم که خیلی ساده و کاربردی جواب سؤالامو ‌داد. بعد که دیدم خودتون بیمه هم می‌فروشین دیگه از شما خریدم.</p>
                     </div>
+
                     <div>
-                    <h3>2</h3>
+                    <h3>پرهام وصالی</h3>
+                    <p></p>
                     </div>
                     <div>
                     <h3>3</h3>
