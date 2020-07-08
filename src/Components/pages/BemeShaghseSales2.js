@@ -4,10 +4,14 @@ import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import AwesomeSlider from 'react-awesome-slider';
 import { Tabs } from 'antd';
+import { Collapse } from 'antd';
+
 // import AwsSliderStyles from 'react-awesome-slider/src/styles.scss';
 
 
 const { TabPane } = Tabs;
+const { Panel } = Collapse;
+
 
 function ComponyBime() {
     return (
@@ -46,7 +50,19 @@ function ComponyBime() {
                 }
                 key="1"
                 >
-                Tab 1
+                    
+                    <Collapse accordion>
+    <Panel header="This is panel header 1" key="1">
+      <p>1</p>
+    </Panel>
+    <Panel header="This is panel header 2" key="2">
+      <p>2</p>
+    </Panel>
+    <Panel header="This is panel header 3" key="3">
+      <p>3</p>
+    </Panel>
+  </Collapse>
+
                 </TabPane>
                 <TabPane
                 tab={
