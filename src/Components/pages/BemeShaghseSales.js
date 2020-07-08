@@ -1,8 +1,9 @@
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Slider } from 'antd';
 import 'antd/dist/antd.css';
 import { Form, Select } from 'antd';
 import BemeShaghseSales2 from './BemeShaghseSales2';
+// import Slider from './Slider';
 
 const { Option } = Select;
     const layout = {
@@ -201,6 +202,7 @@ class Demo extends React.Component {
                     </div>
 
                 <BemeShaghseSales2 />
+                <Slider />
 
                 </Form>
                     );

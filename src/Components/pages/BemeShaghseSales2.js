@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
 import { Collapse } from 'antd';
+// import Slider from './Slider';
 
 
 
@@ -113,6 +114,7 @@ function ComponyBime() {
 
             <div className="test-slider">
                 <h3>مشتریان بیمیتو چه می گویند؟</h3>
+                {/* <Slider /> */}
             </div>
         </div>
     );
