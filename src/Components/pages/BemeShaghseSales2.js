@@ -2,8 +2,8 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
-import { Collapse } from 'antd';
-// import Slider from './Slider';
+import { Collapse,Carousel } from 'antd';
+
 
 
 
@@ -114,7 +114,20 @@ function ComponyBime() {
 
             <div className="test-slider">
                 <h3>مشتریان بیمیتو چه می گویند؟</h3>
-                {/* <Slider /> */}
+                <Carousel autoplay>
+                    <div>
+                    <h3>1</h3>
+                    </div>
+                    <div>
+                    <h3>2</h3>
+                    </div>
+                    <div>
+                    <h3>3</h3>
+                    </div>
+                    <div>
+                    <h3>4</h3>
+                    </div>
+                </Carousel>
             </div>
         </div>
     );
