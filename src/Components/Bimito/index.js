@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import { Card, Col, Row } from "antd";
 import safr from "./Img/safr.jpg";

@@ -11,12 +11,6 @@ import google from './Img/google.png'
 
 
 
-
-
-
-
-
-
 export default class extends React.Component {
 
     constructor(props){
