@@ -12,7 +12,7 @@ const { Panel } = Collapse;
 
 function ComponyBime() {
     return (
-        <div className="allpart">
+        <div className="all-box">
             <Row>
                 <Col span={9} className="box-left">
                     <h2>شرکت‌های ارائه‌دهنده بیمه ثالث</h2>

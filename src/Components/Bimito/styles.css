@@ -290,7 +290,7 @@
     padding: 50px;
 }
 /* ****************************************BemeShaghseSales */
-.title-text{
+.title-text-main{
     background: #ffffff;
     box-shadow: 1px 1px 15px #c5c5c5;
     width: 95%;
@@ -298,7 +298,7 @@
     position: relative;
     margin: 45px auto;
 }
-.allpart{
+.all-box{
     max-width: 1200px;
     min-height: 550px;
     margin: 0 auto;

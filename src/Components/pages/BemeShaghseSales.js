@@ -48,7 +48,7 @@ class Demo extends React.Component {
     render() {
         return (
         <Form {...layout} ref={this.formRef} name="control-ref" onFinish={this.onFinish}>
-            <div className="title-text">
+            <div className="title-text-main">
                 <h1>استعلام بیمه شخص ثالث</h1>
                 <Row>
                     <Col span={12}></Col>
