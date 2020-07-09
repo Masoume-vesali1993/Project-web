@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './App.css';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import Footer from './Components/Bimito/Footer';
 import EndFooer from './Components/Bimito/EndFooer';
@@ -29,7 +29,7 @@ import Index from './Components/Bimito/Index';
 import Dargah from './Components/Bimito/Dargah';
 import Application from './Components/Bimito/Application';
 import Bimito from './Components/Bimito/Biminto';
-
+import Scroll from './Components/Bimito/Scroll'
 
 
 class App extends Component {
@@ -67,6 +67,7 @@ class App extends Component {
           <MainPart/>
           <Form />
           <Index />
+          <Scroll />
           <Dargah />
           <Application />
           <Bimito />
