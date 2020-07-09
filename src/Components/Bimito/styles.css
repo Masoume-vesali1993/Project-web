@@ -311,4 +311,21 @@
 .box-left{
     text-align: center;
 }
-
+.textboxone{
+    text-align: right;
+    padding: 13px 19px;
+    margin-bottom: 35px;
+}
+.box1{
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    font-size: 12px;
+    font-family: IRANSansFaNum;
+    line-height: 1.1875em;
+    align-items: center;
+}
+.title-main{
+    text-align: center;
+    padding-top: 14px;
+}

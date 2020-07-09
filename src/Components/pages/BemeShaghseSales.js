@@ -49,11 +49,11 @@ class Demo extends React.Component {
         return (
         <Form {...layout} ref={this.formRef} name="control-ref" onFinish={this.onFinish}>
             <div className="title-text-main">
-                <h1>استعلام بیمه شخص ثالث</h1>
+                <h1 className="title-main">استعلام بیمه شخص ثالث</h1>
                 <Row>
                     <Col span={12}></Col>
                     <Col span={12}>
-                        <h5>نوع، برند و سال ساخت خودروی خود را انتخاب کنید</h5>
+                        <h5 className="textboxone">نوع، برند و سال ساخت خودروی خود را انتخاب کنید</h5>
                         <Form.Item
                             name="gender"
                             label="نوع وسایل نقلیه"
@@ -63,7 +63,7 @@ class Demo extends React.Component {
                                 },
                             ]}
                             >
-
+                        <div className="box1">
                             <Select
 
                                 placeholder="Select a option and change input text above"
@@ -79,6 +79,8 @@ class Demo extends React.Component {
                                 <Option value="car6">کامیونت</Option>
 
                             </Select>
+                        </div>
+                        
                         </Form.Item>
 
                         <Row>
