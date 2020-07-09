@@ -43,6 +43,9 @@ class App extends Component {
           <Navbar />
 
           {/* <MenuPage /> */}
+
+
+
           
           <Switch>
             
@@ -63,6 +66,10 @@ class App extends Component {
             <Route  path="/samaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
             
           </Switch>
+
+
+
+          
 
           <MainPart/>
           <Form />
