@@ -24,22 +24,22 @@ function ComponyBime() {
                     <Row>
                         <Col span={12}><a>بیمه شخص ثالث پارسیان</a></Col>
                         <Col span={12}>
-                            <img src={bank1} className="img-bank"/>
+                            <img src={bank1} className="img-bank2"/>
                         </Col>
 
                         <Col span={12}><a>بیمه شخص ثالث آسیا</a></Col>
                         <Col span={12}>
-                            <img src={bank2} className="img-bank" />
+                            <img src={bank2} className="img-bank2" />
                         </Col>
 
                         <Col span={12}><a>بیمه شخص ثالث ایران</a></Col>
                         <Col span={12}>
-                            <img src={banck3} className="img-bank" />
+                            <img src={banck3} className="img-bank2" />
                         </Col>
 
                         <Col span={12}><a>بیمه شخص ثالث دانا</a></Col>
                         <Col span={12}>
-                            <img src={banck4} className="img-bank" />
+                            <img src={banck4} className="img-bank2" />
                         </Col>
                     </Row>
                 </Col>
