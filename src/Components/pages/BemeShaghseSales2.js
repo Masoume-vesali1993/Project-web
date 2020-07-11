@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
 import { Collapse,Carousel } from 'antd';
 import '../Bimito/styles.css';
+import bank1 from '../Bimito/Img/bank1.png';
 
 
 
@@ -15,10 +16,12 @@ function ComponyBime() {
         <div className="all-box">
             <Row>
                 <Col span={9} className="box-left">
-                    <h2>شرکت‌های ارائه‌دهنده بیمه ثالث</h2>
+                    <h2 className="text-box">شرکت‌های ارائه‌دهنده بیمه ثالث</h2>
                     <Row>
                         <Col span={12}><a>بیمه شخص ثالث پارسیان</a></Col>
-                        <Col span={12}>img</Col>
+                        <Col span={12}>
+                            <img src={bank1} className="img-bank"/>
+                        </Col>
 
                         <Col span={12}><a>بیمه شخص ثالث آسیا</a></Col>
                         <Col span={12}>img</Col>

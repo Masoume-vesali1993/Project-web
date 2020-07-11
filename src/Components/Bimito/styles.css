@@ -329,3 +329,21 @@
     text-align: center;
     padding-top: 14px;
 }
+.text-box{
+    height: 60px;
+    padding: 0 20px;
+    background: #ffcc00;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.img-bank{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #c7c7c7;
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+}
