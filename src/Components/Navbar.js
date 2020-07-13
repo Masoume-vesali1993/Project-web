@@ -24,7 +24,7 @@ class App extends React.Component {
 
         <SubMenu id="login"
           title={
-            <Link exact="true?" to="./LoginUsing">
+            <Link  to="./LoginUsing">
               ورود/ثبتنام
             </Link>
           }
@@ -33,7 +33,7 @@ class App extends React.Component {
 
         <SubMenu id="samane"
           title={
-            <Link exact="true?" to="/SamaneBazaryabiBimito">
+            <Link to="/SamaneBazaryabiBimito">
               سامانه بازاریابان بیمنتو
             </Link>
           }

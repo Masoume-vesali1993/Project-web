@@ -204,7 +204,7 @@ class Demo extends React.Component {
                     </div>
 
                 <BemeShaghseSales2 />
-                <Slider />
+                {/* <Slider /> */}
 
                 </Form>
                     );
