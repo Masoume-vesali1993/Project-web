@@ -328,6 +328,11 @@
     position: relative;
     direction: rtl;
 }
+.box2{
+    width: 100%;
+    position: relative;
+    direction: rtl;
+}
 .title-main{
     text-align: center;
     padding-top: 14px;

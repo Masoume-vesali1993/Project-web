@@ -84,7 +84,7 @@ class Demo extends React.Component {
                         </Form.Item>
 
                         <Row>
-                            <Col span={12}>
+                            <Col span={12} className="box2">
                                 <Form.Item
                                     name="gender"
                                     label="برند"
@@ -121,10 +121,10 @@ class Demo extends React.Component {
                                 </Form.Item>
                             </Col>
 
-                            <Col span={12}>
+                            <Col span={12} className="box2">
                                 <Form.Item
                                     name="gender"
-                                    label="برند"
+                                    label="ظرفیت"
                                     rules={[
                                         {
                                         required: true,
@@ -132,29 +132,12 @@ class Demo extends React.Component {
                                     ]}
                                     >
 
-                                    <Select
-                                        placeholder="Select a option and change input text above"
-                                        onChange={this.onGenderChange}
-                                        allowClear
-                                    >
-                                        <Option value="car">پژو</Option>
-                                        <Option value="car2">پراید</Option>
-                                        <Option value="car3">تیبا</Option>
-                                        <Option value="car4">رنو</Option>
-                                        <Option value="car5">سمند</Option>
-                                        <Option value="car6">کیا</Option>
-                                        <Option value="car7">هیوندای</Option>
-                                        <Option value="car8">تویوتا</Option>
-                                        <Option value="car9">فوتون</Option>
-                                        <Option value="car10">سابرینا</Option>
-                                        <Option value="car11">سایپا</Option>
-                                        <Option value="car12">آریو</Option>
-                                        <Option value="car13">اویکو</Option>
-                                        <Option value="car14">اسکودا</Option>
-                                        <Option value="car15">اسمارت</Option>
-                                        <Option value="car16">لندمارک</Option>
-                                        <Option value="car17">رولزرویس</Option>
-                                    </Select>
+                                        <Select
+                                            placeholder="جستجو"
+                                            onChange={this.onGenderChange}
+                                            allowClear
+                                        >
+                                        </Select>
                                     </Form.Item>
                                         </Col>
                                             </Row>                
@@ -162,8 +145,8 @@ class Demo extends React.Component {
                                                 </Row>
 
                         <Row>
-                            <Col span={12}></Col>
-                            <Col span={12}>
+                            {/* <Col span={12}></Col> */}
+                            <Col className="box1">
                             <Form.Item
                                     name="gender"
                                     label="سال ساخت"
