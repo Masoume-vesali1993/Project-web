@@ -316,6 +316,9 @@
     padding: 13px 19px;
     margin-bottom: 35px;
 }
+.main-box{
+    direction: rtl;
+}
 .box1{
     color: rgba(0, 0, 0, 0.87);
     cursor: text;
@@ -329,6 +332,11 @@
     direction: rtl;
 }
 .box2{
+    width: 100%;
+    position: relative;
+    direction: rtl;
+}
+.box3{
     width: 100%;
     position: relative;
     direction: rtl;

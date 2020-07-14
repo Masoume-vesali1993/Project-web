@@ -3,7 +3,7 @@ import { Row, Col, Slider } from 'antd';
 import 'antd/dist/antd.css';
 import { Form, Select } from 'antd';
 import BemeShaghseSales2 from './BemeShaghseSales2';
-// import Slider from './Slider';
+
 
 const { Option } = Select;
     const layout = {
@@ -52,7 +52,7 @@ class Demo extends React.Component {
                 <h1 className="title-main">استعلام بیمه شخص ثالث</h1>
                 <Row>
                     <Col span={12}></Col>
-                    <Col span={12}>
+                    <Col span={12} className="main-box">
                         <h5 className="textboxone">نوع، برند و سال ساخت خودروی خود را انتخاب کنید</h5>
                         <Form.Item
                             name="gender"
@@ -145,8 +145,8 @@ class Demo extends React.Component {
                                                 </Row>
 
                         <Row>
-                            {/* <Col span={12}></Col> */}
-                            <Col className="box1">
+                            <Col span={12}></Col>
+                            <Col span={12} className="box3">
                             <Form.Item
                                     name="gender"
                                     label="سال ساخت"
@@ -158,27 +158,14 @@ class Demo extends React.Component {
                                     >
 
                                     <Select
-                                        placeholder="Select a option and change input text above"
+                                        placeholder="1389"
                                         onChange={this.onGenderChange}
                                         allowClear
                                     >
-                                        <Option value="car">پژو</Option>
-                                        <Option value="car2">پراید</Option>
-                                        <Option value="car3">تیبا</Option>
-                                        <Option value="car4">رنو</Option>
-                                        <Option value="car5">سمند</Option>
-                                        <Option value="car6">کیا</Option>
-                                        <Option value="car7">هیوندای</Option>
-                                        <Option value="car8">تویوتا</Option>
-                                        <Option value="car9">فوتون</Option>
-                                        <Option value="car10">سابرینا</Option>
-                                        <Option value="car11">سایپا</Option>
-                                        <Option value="car12">آریو</Option>
-                                        <Option value="car13">اویکو</Option>
-                                        <Option value="car14">اسکودا</Option>
-                                        <Option value="car15">اسمارت</Option>
-                                        <Option value="car16">لندمارک</Option>
-                                        <Option value="car17">رولزرویس</Option>
+                                        <Option value="car">89-90</Option>
+                                        <Option value="car2">91-92</Option>
+                                        <Option value="car3">93-94</Option>
+                                        <Option value="car4">95-96</Option>
                                     </Select>
                                 </Form.Item>
                             </Col>
