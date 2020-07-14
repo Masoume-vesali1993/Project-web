@@ -73,10 +73,9 @@ function ComponyBime() {
                             </Collapse>
                         </TabPane>
 
-                        <TabPane
+                        <TabPane 
                             tab={
                                 <span>
-                                {/* <AndroidOutlined /> */}
                                 درباره بیمه شخص ثالث
                                 </span>
                             }
