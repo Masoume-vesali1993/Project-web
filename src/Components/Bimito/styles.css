@@ -324,6 +324,9 @@
     font-family: IRANSansFaNum;
     line-height: 1.1875em;
     align-items: center;
+    width: 100%;
+    position: relative;
+    direction: rtl;
 }
 .title-main{
     text-align: center;

@@ -66,7 +66,7 @@ class Demo extends React.Component {
                         <div className="box1">
                             <Select
 
-                                placeholder="Select a option and change input text above"
+                                placeholder="کامیون"
                                 onChange={this.onGenderChange}
                                 allowClear
                             >
@@ -96,7 +96,7 @@ class Demo extends React.Component {
                                 >
 
                                     <Select
-                                        placeholder="Select a option and change input text above"
+                                        placeholder="پژو"
                                         onChange={this.onGenderChange}
                                         allowClear
                                     >
