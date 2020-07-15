@@ -51,7 +51,11 @@ class Demo extends React.Component {
             <div className="title-text-main">
                 <h1 className="title-main">استعلام بیمه موتور سیکلت</h1>
                 <Row>
-                    <Col span={12}></Col>
+                    <Col span={12}>
+                        <svg height="210" width="500">
+                        <polygon points="200,10 250,190 160,210"  />
+                        </svg>
+                    </Col>
                     <Col span={12} className="main-box">
                         <h5 className="textboxone">مدل و سال ساخت موتورسیکلت خود را انتخاب کنید</h5>
 
