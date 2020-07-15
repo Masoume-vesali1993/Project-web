@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import './App.css';
-// import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import Footer from './Components/Bimito/Footer';
 import EndFooer from './Components/Bimito/EndFooer';
@@ -22,7 +21,6 @@ import ComponyBime from './Components/pages/ComponyBime';
 import LoginUsing from './Components/pages/LoginUsing';
 import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 import Home from './Components/pages/Home';
-
 import MainPart from './Components/Bimito/MainPart';
 import Form from './Components/Bimito/Form';
 import Index from './Components/Bimito/Index';
@@ -41,9 +39,6 @@ class App extends Component {
           <TopHeader />
 
           <Navbar />
-
-          {/* <MenuPage /> */}
-
 
 
           
@@ -68,18 +63,20 @@ class App extends Component {
           </Switch>
 
 
-
-          
-
           <MainPart/>
+
           <Form />
+
           <Index />
+
           <Scroll />
+
           <Dargah />
+
           <Application />
+
           <Bimito />
 
-           
           <Footer />
                   
           <EndFooer />
