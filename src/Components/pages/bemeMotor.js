@@ -97,24 +97,6 @@ class Demo extends React.Component {
                                 </Form.Item>
                             </Col>
 
-                            {/* <Col span={10} className="box2">
-                                <Form.Item
-                                    name="gender"
-                                    rules={[
-                                        {
-                                        required: true,
-                                        },
-                                    ]}
-                                    >
-
-                                    <Select
-                                            placeholder="سال ساخت"
-                                            onChange={this.onGenderChange}
-                                            allowClear
-                                    >
-                                    </Select>
-                                </Form.Item>
-                            </Col> */}
                             <Col span={2}>مرحله بعد</Col>
                         </Row>   
                         <Row>

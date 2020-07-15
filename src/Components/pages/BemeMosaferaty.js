@@ -1,19 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
-import { Form, Input, Button, Select } from 'antd';
-import BemeShaghseSales2 from './BemeShaghseSales2';
+import { Form, Select } from 'antd';
 
-const { Option } = Select;
-    const layout = {
-        labelCol: {
-            span: 8,
-        },
-        wrapperCol: {
-            span: 16,
-        },
-        };
+
+    const { Option } = Select;
+        const layout = {
+            labelCol: {
+                span: 8,
+            },
+            wrapperCol: {
+                span: 16,
+            },
+            };
+            
     const tailLayout = {
         wrapperCol: {
             offset: 8,
@@ -51,39 +51,19 @@ render() {
         <div className="title-text">
             <h1>استعلام بیمه مسافرتی</h1>
             <Row>
-                <Col span={12}></Col>
-
                 <Col span={12}>
-                    <h5>نوع، برند و سال ساخت خودروی خود را انتخاب کنید</h5>
-                    <Form.Item
-                        name="gender"
-                        label="نوع وسایل نقلیه"
-                        rules={[
-                            {
-                            required: true,
-                            },
-                        ]}
-                        >
+                    <svg height="210" width="500">
+                    <polygon points="200,10 250,190 160,210"  />
+                    </svg>
+                </Col>
 
-                        <Select
-                            placeholder="Select a option and change input text above"
-                            onChange={this.onGenderChange}
-                            allowClear
-                        >
-                            <Option value="car">سواری</Option>
-                            <Option value="car2">وانت</Option>
-                            <Option value="car3">تاکسی درون شهری</Option>
-                            <Option value="car4">تاکسی برون شهری</Option>
-                            <Option value="car5">کامیون</Option>
-                            <Option value="car6">کامیونت</Option>
-                        </Select>
-                    </Form.Item>
-
+                <Col span={12} className="main-box">
+                    <h5 className="textboxone">مدل و سال ساخت موتورسیکلت خود را انتخاب کنید</h5>
                     <Row>
-                        <Col span={12}>
+                        <Col span={2}>مرحله قبل</Col>
+                        <Col span={20} className="box2">
                             <Form.Item
                                 name="gender"
-                                label="برند"
                                 rules={[
                                     {
                                     required: true,
@@ -91,8 +71,8 @@ render() {
                                 ]}
                             >
 
-                                <Select
-                                    placeholder="Select a option and change input text above"
+                                <Select className="select-one"
+                                    placeholder="مدل موتور سیکلت"
                                     onChange={this.onGenderChange}
                                     allowClear
                                 >
@@ -117,92 +97,15 @@ render() {
                             </Form.Item>
                         </Col>
 
-                        <Col span={12}>
-                            <Form.Item
-                                name="gender"
-                                label="برند"
-                                rules={[
-                                    {
-                                    required: true,
-                                    },
-                                ]}
-                                >
-
-                                <Select
-                                    placeholder="Select a option and change input text above"
-                                    onChange={this.onGenderChange}
-                                    allowClear
-                                >
-                                    <Option value="car">پژو</Option>
-                                    <Option value="car2">پراید</Option>
-                                    <Option value="car3">تیبا</Option>
-                                    <Option value="car4">رنو</Option>
-                                    <Option value="car5">سمند</Option>
-                                    <Option value="car6">کیا</Option>
-                                    <Option value="car7">هیوندای</Option>
-                                    <Option value="car8">تویوتا</Option>
-                                    <Option value="car9">فوتون</Option>
-                                    <Option value="car10">سابرینا</Option>
-                                    <Option value="car11">سایپا</Option>
-                                    <Option value="car12">آریو</Option>
-                                    <Option value="car13">اویکو</Option>
-                                    <Option value="car14">اسکودا</Option>
-                                    <Option value="car15">اسمارت</Option>
-                                    <Option value="car16">لندمارک</Option>
-                                    <Option value="car17">رولزرویس</Option>
-                                </Select>
-                                </Form.Item>
-                                    </Col>
-                                        </Row>                
-                                            </Col>
-                                            </Row>
-
-                                            <Row>
-                                                <Col span={12}></Col>
-                                                <Col span={12}>
-                                                <Form.Item
-                                name="gender"
-                                label="سال ساخت"
-                                rules={[
-                                    {
-                                    required: true,
-                                    },
-                                ]}
-                                >
-
-                                <Select
-                                    placeholder="Select a option and change input text above"
-                                    onChange={this.onGenderChange}
-                                    allowClear
-                                >
-                                    <Option value="car">پژو</Option>
-                                    <Option value="car2">پراید</Option>
-                                    <Option value="car3">تیبا</Option>
-                                    <Option value="car4">رنو</Option>
-                                    <Option value="car5">سمند</Option>
-                                    <Option value="car6">کیا</Option>
-                                    <Option value="car7">هیوندای</Option>
-                                    <Option value="car8">تویوتا</Option>
-                                    <Option value="car9">فوتون</Option>
-                                    <Option value="car10">سابرینا</Option>
-                                    <Option value="car11">سایپا</Option>
-                                    <Option value="car12">آریو</Option>
-                                    <Option value="car13">اویکو</Option>
-                                    <Option value="car14">اسکودا</Option>
-                                    <Option value="car15">اسمارت</Option>
-                                    <Option value="car16">لندمارک</Option>
-                                    <Option value="car17">رولزرویس</Option>
-                                </Select>
-                                </Form.Item>
-                                </Col>
-                                    </Row>
-
-                                    <BemeShaghseSales2 />
-                                        </div>
-                                            </Form>
-                                                );
-                                                    }
-                                                        }
+                        <Col span={2}>مرحله بعد</Col>
+                    </Row>         
+                </Col>
+            </Row>                           
+        </div>
+    </Form>
+        );
+            }
+                }
 
 
 export default Demo;
