@@ -103,28 +103,26 @@ class Demo extends React.Component {
                                     ]}
                                     >
 
-                                        <Select
+                                    <Select
                                             placeholder="مدل خودرو"
                                             onChange={this.onGenderChange}
                                             allowClear
-                                        >
-                                        </Select>
-                                    </Form.Item>
-                                        </Col>
+                                    >
+                                    </Select>
+                                </Form.Item>
+                            </Col>
                             <Col span={2}>مرحله بعد</Col>
                         </Row>                
                     </Col>
                 </Row>
+            </div>
 
+        <BemeShaghseSales2 />
 
-                    </div>
-
-                <BemeShaghseSales2 />
-
-                </Form>
-                    );
-                        }
-                            }
+    </Form>
+);
+    }
+        }
 
 
 export default Demo;
