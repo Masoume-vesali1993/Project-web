@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Slider } from 'antd';
+import { Row, Col} from 'antd';
 import 'antd/dist/antd.css';
 import { Form, Select } from 'antd';
 import BemeShaghseSales2 from './BemeShaghseSales2';

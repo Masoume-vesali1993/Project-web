@@ -347,7 +347,7 @@
     
 }
 .text-box{
-    height: 43px;
+    height: 45px;
     padding: 0 20px;
     background: #ffcc00;
     color: white;
@@ -363,4 +363,10 @@
     width: 45px;
     height: 45px;
     margin-left: 20px;
+}
+.box-slider{
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 22px 34px;
+    margin-top: 22px;
 }
