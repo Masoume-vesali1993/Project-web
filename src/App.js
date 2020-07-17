@@ -18,7 +18,7 @@ import DarmanTakmily from './Components/pages/DarmanTakmily';
 import BemeZelzele from './Components/pages/BemeZelzele';
 import Blog from './Components/pages/Blog';
 import ComponyBime from './Components/pages/ComponyBime';
-import LoginUsing from './Components/pages/LoginUsing';
+// import LoginUsing from './Components/pages/LoginUsing';
 import SamaneBazaryabiBimito from './Components/pages/SamaneBazaryabiBimito';
 import Home from './Components/pages/Home';
 import MainPart from './Components/Bimito/MainPart';
@@ -57,7 +57,7 @@ class App extends Component {
             <Route  path="/bemeZelzele" component={BemeZelzele} />
             <Route  path="/blog" component={Blog} />
             <Route  path="/componyBime" component={ComponyBime} />
-            <Route  path="/loginUsing" component={LoginUsing} />
+            {/* <Route  path="/loginUsing" component={LoginUsing} /> */}
             <Route  path="/samaneBazaryabiBimito" component={SamaneBazaryabiBimito} />
             
           </Switch>
