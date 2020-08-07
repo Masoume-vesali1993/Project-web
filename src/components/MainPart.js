@@ -1,16 +1,16 @@
 import React from 'react';
 import './styles.css';
 import { Row, Col } from 'antd';
-import earthquake from './Img/earthquake.svg'
-import fire_2 from './Img/fire_2.svg'
-import motorcycle_1 from './Img/motorcycle_1.svg'
-import carBody from './Img/carBody.svg'
-import sales from './Img/thirdparty.svg'
-import corporate from './Img/corporate.svg'
-import health from './Img/health.svg'
-import life from './Img/life.svg'
-import medical from './Img/medical.svg'
-import travel from './Img/travel.svg'
+import earthquake from '../assets/images/earthquake.svg'
+import fire_2 from '../assets/images/fire_2.svg'
+import motorcycle_1 from '../assets/images/motorcycle_1.svg'
+import carBody from '../assets/images/carBody.svg'
+import sales from '../assets/images/thirdparty.svg'
+import corporate from '../assets/images/corporate.svg'
+import health from '../assets/images/health.svg'
+import life from '../assets/images/life.svg'
+import medical from '../assets/images/medical.svg'
+import travel from '../assets/images/travel.svg'
 
 
 

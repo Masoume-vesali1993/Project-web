@@ -1,28 +1,29 @@
-import React, {Component} from "react";
-import { render } from "react-dom";
+import React from "react";
+import Plx from "react-plx";
+
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
-import Plx from "react-plx";
-import Iran from "./Img/Iran.png"
-import anjoman from "./Img/anjoman.png"
-import Asia from "./Img/Asia.png"
-import Parsian from "./Img/Parsian.png"
-import Dana from "./Img/Dana.png"
-import Razi from "./Img/Razi.png"
-import Ma from "./Img/Ma.png"
-import Moalem from "./Img/Moalem.png"
-import Pasargad from "./Img/Pasargad.png"
-import Alborz from "./Img/Alborz.png"
-import Dey from "./Img/Dey.png"
-import Melat from "./Img/Melat.png"
-import KarAfarin from "./Img/KarAfarin.png"
-import Novin from "./Img/Novin.png"
-import Saman from "./Img/Saman.png"
-import Tejarat from "./Img/Tejarat.png"
-import Kosar from "./Img/Kosar.png"
-import Arman from "./Img/Arman.png"
-import Sina from "./Img/Sina.png"
-import Tavon from "./Img/Tavon.png"
+
+import Iran from "../assets/images/Iran.png"
+import anjoman from "../assets/images/anjoman.png"
+import Asia from "../assets/images/Asia.png"
+import Parsian from "../assets/images/Parsian.png"
+import Dana from "../assets/images/Dana.png"
+import Razi from "../assets/images/Razi.png"
+import Ma from "../assets/images/Ma.png"
+import Moalem from "../assets/images/Moalem.png"
+import Pasargad from "../assets/images/Pasargad.png"
+import Alborz from "../assets/images/Alborz.png"
+import Dey from "../assets/images/Dey.png"
+import Melat from "../assets/images/Melat.png"
+import KarAfarin from "../assets/images/KarAfarin.png"
+import Novin from "../assets/images/Novin.png"
+import Saman from "../assets/images/Saman.png"
+import Tejarat from "../assets/images/Tejarat.png"
+import Kosar from "../assets/images/Kosar.png"
+import Arman from "../assets/images/Arman.png"
+import Sina from "../assets/images/Sina.png"
+import Tavon from "../assets/images/Tavon.png"
 
 const exampleParallaxData = [
   {
@@ -53,7 +54,6 @@ const exampleParallaxData = [
       {
         startValue: "#3cb99c",
         endValue: "rgba(50,50,200,0.8)",
-        // property: "backgroundColor"
       },
 
       {
@@ -105,24 +105,19 @@ const styles = {
   width: "480px",
   height: "100px",
   lineHeight: "100px",
-  // textAlign: "center",
-  // borderRadius: 20,
-  // backgroundColor: "#34ba9c",
   color: "#fff",
   left: "50%",
-  // marginLeft: -50,
   top: 2100,
   position:"absolute",
-  // fontFamily: "Helvetica, Arial, sans-serif"
 };
 
-const App = () => (
+export default () => (
   <div>
     <Plx parallaxData={exampleParallaxData} style={styles} className="scroll-img">
         <Row gutter={[12]}>
 
             <Col span={1}>
-                {/* {<img alt="example" src={Asmari} />}  */}
+
             </Col>
 
             <Col  span={1}>
@@ -166,7 +161,7 @@ const App = () => (
             </Col>
 
             <Col  span={1}>
-                {/* {<img alt="example" src={anjoman} style={{padding:100}}/>} */}
+
             </Col>
 
         </Row>
@@ -174,7 +169,7 @@ const App = () => (
         <Row gutter={[12]}>
 
             <Col span={1}>
-                {/* {<img alt="example" src={Asmari} />}  */}
+
             </Col>
 
             <Col className="gutter-row" span={1}>
@@ -218,7 +213,7 @@ const App = () => (
             </Col>
 
             <Col className="gutter-row" span={1}>
-                {/* {<img alt="example" src={anjoman} style={{padding:100}}/>} */}
+
             </Col>
 
         </Row>
@@ -228,12 +223,9 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById("root"));
-
-export default App;
-
-
-
-
-
-
+// متوجه نشدم که چرا اینجا App رو داشتی توی React-dom میریختی
+// اینها فقط کامپوننت هستند و باید در نهایت اکسپورت بشن
+// همه کامپوننت ها و پیج ها توی App اصلی هستند که باید توی DOM تزریق بشن نه جای دیگه
+// اینکه برای کامپوننت هات اسم نذاری یا اینکه همشون رو App بذاری هم جالب نیستش واقعا
+// هر کامپوننت میتونه اسم همون پوشه یا فایل رو داشته باشه و خیلی قشنگ تر میشه این شکلی
+// مثلا اینجا اسم این کامپوننت رو متیونستی بذاری Scroll

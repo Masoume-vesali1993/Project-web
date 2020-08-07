@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
-import mobilee from './Img/mobilee.svg'
+import mobilee from '../assets/images/mobilee.svg'
 
-
+// دقیقا مشابه با فایل Biminto.js که گفتم این هم همین طور
 
 export default class extends React.Component {
 

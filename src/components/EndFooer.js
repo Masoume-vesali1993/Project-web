@@ -27,7 +27,8 @@ export default class extends React.Component {
                             <IconFont type="icon-twitter" />
                         </Col>
                         <Col span={12}>
-                            <h3><a className="endpart">سامانه بازاریابی بیمنتو</a></h3>
+                            {/* اینجا از تگ a استفاده کردی اما لینک نشده به هیچ جایی که مشکل ساز میشه این موضوع*/}
+                            <h3><a href="/#" className="endpart">سامانه بازاریابی بیمنتو</a></h3>
                         </Col>
                     </Row>
                   </div>
@@ -36,3 +37,6 @@ export default class extends React.Component {
     }
 
 }
+
+// وقتی از تگ a استفاده میکنی باید از پراپرتی href استفاده کنی حتما
+// اگه میخوای با کلیک کردن روش هیج اتفاقی نیوفته این کاری که من کردم رو انجام بده

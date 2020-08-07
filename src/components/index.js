@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
 import { Card, Col, Row } from "antd";
-import safr from "./Img/safr.jpg";
-import khane from "./Img/khane.jpg";
-import omr from "./Img/omr.jpg";
-import sales from "./Img/sales.jpg";
+import safr from "../assets/images/safr.jpg";
+import khane from "../assets/images/khane.jpg";
+import omr from "../assets/images/omr.jpg";
+import sales from "../assets/images/sales.jpg";
 
 
 const { Meta } = Card;
 
+// به نظرت بهتر نیستش که اینجا هم از فانکشن کامپوننت استفاده کنی ؟‌
 export default class Index extends Component {
   render() {
     return (
@@ -26,7 +27,7 @@ export default class Index extends Component {
               />
               <br />
               <button>
-                <a>بیشتر</a>
+                <a href="/#">بیشتر</a>
               </button>
             </Card>
             ,
@@ -44,7 +45,7 @@ export default class Index extends Component {
               />
               <br />
               <button>
-                <a>بیشتر</a>
+                <a href="/#">بیشتر</a>
               </button>
             </Card>
             ,
@@ -62,7 +63,7 @@ export default class Index extends Component {
               />
               <br />
               <button>
-                <a>بیشتر</a>
+                <a href="/#">بیشتر</a>
               </button>
             </Card>
             ,
@@ -80,7 +81,7 @@ export default class Index extends Component {
               />
               <br />
               <button>
-                <a>بیشتر</a>
+                <a href="/#">بیشتر</a>
               </button>
             </Card>
             ,
