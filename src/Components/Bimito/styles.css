@@ -376,3 +376,11 @@
 .select-tow{
     margin-right: 160px;
 }
+.text-right{
+    text-align: right;
+    padding: 210px 236px;
+}
+.text-left{
+    padding: 146px;
+    text-align: right;
+}
